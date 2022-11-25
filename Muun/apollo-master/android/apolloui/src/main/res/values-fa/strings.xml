@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Manifest strings -->
+    <string name="verify_link_handler_label" translatable="false">مون</string>
+    <string name="authorize_link_handler_label" translatable="false">مون</string>
+    <string name="confirm_link_handler_label" translatable="false">مون</string>
+
+    <!-- General-purpose strings -->
+    <string name="cancel">لغو</string>
+    <string name="dismiss">رد کن</string>
+    <string name="stay">بمان</string>
+    <string name="leave">ترک کن</string>
+    <string name="retry">تلاش مجدد</string>
+    <string name="send_report">ارسال گزارش</string>
+    <string name="abort">توقف</string>
+    <string name="available_balance">مانده</string>
+    <string name="selected">انتخاب شده</string>
+    <string name="why"><annotation link="why">چرا؟</annotation></string>
+    <string name="no_internet">ارتباط با اینترنت قطع شد</string>
+    <string name="qr_code_image">تصویر کیو آر کد</string> <!-- accesibility -->
+    <string name="backspace">برگشت</string> <!-- accesibility -->
+    <string name="long_date_format">%s در %s%s</string>
+    <string name="not_available">دسترس ناپذیر</string>
+    <string name="open_app">برنامه را باز کن</string>
+    <string name="loading">در حال بارگذاری...</string>
+    <string name="contacting">در حال اتصال</string>   <!-- Just used for UI test matching -->
+
+    <string name="overflow_menu_hint">سرریز</string>
+
+    <!-- FCM -->
+    <string name="google_play_services_not_available">
+        به نظر می رسد Google Play Services روی این دستگاه موبایل در دسترس نیستند. مون برای ارسال 
+        اعلانهای سریع در خصوص پرداختهای لایتنینگ به این سرویس نیاز دارد. لطفا Google Play Services 
+        را نصب کنید و دوباره امتحان کنید.
+    </string>
+    <string name="fcm_token_not_available">
+        سرویس اعلان اندروید پاسخگو نیست. لطفا دوباره امتحان کنید.
+    </string>
+
+    <!-- New operation -->
+    <string name="new_operation_title">پرداخت جدید</string>
+    <string name="operation_detail_title">جزئیات پرداخت</string>
+    <string name="showqr_title">دریافت</string>
+    <string name="scanqr_title">پرداخت</string>
+    <string name="scanqr_drawer_title">از آدرس روی چکنویس استفاده کن</string>
+    <string name="scanqr_drawer_no_address">درخواست پرداخت از %s</string>
+    <string name="scanqr_drawer_no_address_no_host">درخواست پرداخت از یک فروشنده</string>
+    <string name="scanqr_drawer_ln_invoice_title">از صورتحساب روی چکنویس استفاده کن</string>
+
+    <string name="grant_camera_permission_button">دوربین را فعال کن</string>
+
+    <string name="camera_permission_request_title">
+        یک کیو آر کد بیتکوین یا لایتنینگ را اسکن کنید
+    </string>
+
+    <string name="camera_permission_request">
+        دوربینتان را برای اسکن کیو آر کدهای حاوی آدرس یا صورتحساب فعال کنید
+    </string>
+
+    <string name="new_operation_to">به</string>
+    <string name="new_operation_to_hint">یک آدرس بیتکوین یا صورتحساب وارد کنید</string>
+    <string name="new_operation_dialog_full_address">آدرس کامل</string>
+    <string name="new_operation_note_hint">یادداشتی بنویسید</string>
+    <string name="new_operation_total">جمع</string>
+    <string name="new_operation_fee">کارمزد شبکه</string>
+    <string name="new_operation_amount">مبلغ</string>
+    <string name="new_operation_use_all_funds">استفاده از تمام موجودی</string>
+    <string name="new_operation_note">یادداشت</string>
+    <string name="new_operation_confirm">ارسال</string>
+    <string name="new_operation_resolving">در حال بارگذاری جزئیات پرداخت</string>
+    <string name="new_operation_receiving_node_data">جزئیات گره دریافت کننده</string>
+    <string name="new_operation_invoice_exp_prefix">این صورتحساب ظرف</string>
+    <string name="new_operation_invoice_exp_weeks">%d هفته و %d روز منقضی می شود</string>
+    <string name="new_operation_invoice_exp_days">%d روز و %d ساعت منقضی می شود</string>
+    <string name="new_operation_invoice_exp_hours">%d ساعت و %d دقیقه منقضی می شود</string>
+    <string name="new_operation_invoice_exp_minutes">%02d:%02d</string>
+    <string name="new_operation_invoice_exp_seconds">%02d:%02d</string>
+
+    <string name="confirm_amount">تأیید مبلغ</string>
+    <string name="confirm_note">تأیید یادداشت</string>
+    <string name="title_new_operation">ارسال بیتکوین</string>
+
+    <string name="new_operation_abort_alert_title">پرداخت لغو شود؟</string>
+    <string name="new_operation_abort_alert_body">
+        شما در حال لغو این پرداخت و بازگشت به صفحه اصلی هستید
+    </string>
+
+    <string name="new_operation_swap_title">با لایتنینگ بپردازید</string>
+    <string name="new_operation_receiving_node_public_key">
+        <![CDATA[<b>کلیدهای عمومی:</b> %s]]>
+    </string>
+    <string name="new_operation_receiving_node_network_address">
+        <![CDATA[<b>آدرس شبکه:</b> %s]]>
+    </string>
+    <string name="see_in_node_explorer">در کاوشگر گره باز کن</string>
+
+    <string name="new_op_1_conf_notice_banner">
+        این پرداخت بیشتر از زمان معمول پرداختهای لایتنینگ طول خواهد کشید.
+        <annotation link="link">چرا؟</annotation>
+    </string>
+    <string name="new_op_1_conf_notice_title">چرا انجام این پرداخت بیشتر طول خواهد کشید؟</string>
+    <string name="new_op_1_conf_notice_desc">
+        این پرداخت لایتنینگ نیازمند یک تراکنش تأیید شده روی شبکه بیتکوین است.
+        هر تأیید به طور میانگین 10 دقیقه طول می کشد.
+    </string>
+
+    <!-- Failed operation -->
+    <string name="error_op_insufficient_funds">شما موجودی کافی ندارید</string>
+    <string name="error_op_insufficient_funds_desc">
+            شما موجودی کافی برای انجام این پرداخت و پرداخت کارمزد شبکه ندارید.
+    </string>
+
+    <string name="error_op_invoice_unreachable_node_title">این صورتحساب قابل پرداخت نیست</string>
+    <string name="error_op_invoice_unreachable_node_desc">
+        این صورتحساب را یک گره خصوصی ایجاد کرده است که قابل دسترسی نیست. برای دسترسی لازم است که صورتحساب
+        حاوی اطلاعات اضافی (RoutHints) باشد. این مشکل فقط از سوی ایجاد کننده صورتحساب قابل حل است.
+    </string>
+
+    <string name="error_op_invoice_no_route_title">مسیری وجود ندارد</string>
+    <string name="error_op_invoice_no_route_desc">
+        مسیری با ظرفیت کافی برای این پرداخت وجود ندارد. 
+        لطفا با <annotation link="support">تیم پشتیبانی</annotation>
+        ما تماس بگیرید و اطلاع دهید. خوشحال می شویم کمک کنیم.
+    </string>
+
+    <string name="error_op_invoice_will_expire_soon_title">
+        این پرداخت به زمان انقضای بیشتری نیاز دارد
+    </string>
+    <string name="error_op_invoice_will_expire_soon_desc">
+        لطفا صورتحساب جدیدی با زمان انقضای بیش از یک ساعت درخواست کنید،
+        یا از صورتحسابی با مبلغ کمتر استفاده کنید.
+    </string>
+
+    <string name="error_op_invoice_expired_title">این صورتحساب منقضی شده است</string>
+    <string name="error_op_invoice_expired_desc">
+        این صورتحساب پیش از پرداخت منقضی شده است. لطفا یکی دیگر ایجاد یا درخواست کنید.
+    </string>
+
+    <string name="error_op_invoice_used_title">این صورتحساب قبلا استفاده شده است</string>
+    <string name="error_op_invoice_used_desc">
+        این صورتحساب قبلا توسط کیف دیگری اسکن یا پرداخت شده است. لطفا صورتحساب جدیدی ایجاد 
+        یا درخواست کنید.
+    </string>
+
+    <string name="error_op_invoice_invalid_amount_title">
+        این صورتحساب فاقد مبلغ است
+    </string>
+    <string name="error_op_invoice_invalid_amount_desc">
+        فعلا فقط می توانید به صورتحسابهایی پرداخت کنید که شامل مبلغ نیز می شوند. لطفا یکی دیگر
+        ایجاد یا درخواست کنید.
+    </string>
+
+    <string name="error_op_invoice_invalid_title">صورتحساب قابل پرداخت نیست</string>
+    <string name="error_op_invoice_invalid_desc">لطفا با صورتحسابی دیگر امتحان کنید</string>
+
+    <string name="error_op_exchange_rate_window_too_old_title">نرخ بیتکوین تغییر کرده است</string>
+    <string name="error_op_exchange_rate_window_too_old_desc">
+        پرداخت شما به علت تغییر نرخ بیتکوین انجام نشد.
+        لطفا پرداخت جدیدی را شروع کنید.
+    </string>
+
+    <string name="error_op_invalid_swap">خطایی غیرمنتظره رخ داده است</string>
+    <string name="error_op_invalid_swap_desc">
+        مشکلی پیش آمده ولی نمی دانیم چیست.
+        <annotation link="support">تیم پشتیبانی</annotation>لطفا با
+        ما تماس بگیرید و اطلاع دهید. خوشحال می شویم کمک کنیم.
+    </string>
+
+    <string name="error_op_cyclical_swap_title">این صورتحساب قابل پرداخت نیست</string>
+    <string name="error_op_cyclical_swap_desc">نمی توانید صورتحسابی به خودتان پرداخت کنید.</string>
+
+    <string name="error_op_generic">خطایی رخ داده است</string>
+    <string name="error_op_generic_desc">
+        مشکلی پیش آمده است. ولی نتوانستیم علتش را پیدا کنیم. گزارشی تهیه کردیم که
+        کمک می کند علت مشکل را پیدا کنیم.
+        \n\n
+        لطفا <annotation link="support">گزارش را به تیم پشتیبانی ماارسال کنید</annotation>.
+    </string>
+
+    <string name="error_op_amount_too_small_title">این پرداخت بیش از اندازه کوچک است</string>
+    <string name="error_op_amount_too_small_desc">
+        مبلغی که می خواهید ارسال کنید بیش از اندازه کم است. مبلغ می بایست بیشتر از 546 ساتوشی باشد.
+    </string>
+
+    <string name="error_op_invalid_address_title">این یک آدرس بیتکوین نیست</string>
+    <string name="error_op_invalid_address_desc">
+        این یک آدرس بیتکوین یا صورتحساب لایتنینگ نیست. منبع دریافت آن را بازبینی کنید
+        و مطمئن شوید که آدرس به درستی پیکربندی شده است.
+        \n
+        \nمتن اسکن شده:
+        \n<annotation fontStyle="bold"><annotation arg="0">placeholder</annotation></annotation>
+    </string>
+
+    <string name="error_op_invalid_address_title_no_arg">این یک آدرس بیتکوین نیست</string>
+    <string name="error_op_invalid_address_desc_no_arg">
+        این یک آدرس بیتکوین یا صورتحساب لایتنینگ نیست. منبع دریافت آن را بازبینی کنید
+        و مطمئن شوید که آدرس به درستی پیکربندی شده است.
+    </string>
+
+    <string name="error_invalid_lnurl_title">آیا این یک کد LNURL است؟</string>
+    <string name="error_invalid_lnurl_desc">
+        به نظر نمی رسد این یک لینک LNURL باشد. لطفا منبع را بازبینی کنید.
+        به خاطر داشته باشید که فقط با سرویس هایی که از LNURL پشتیبانی می کنند می توانید از آن استفاده کنید.
+        \n
+        \nمتن اسکن شده:
+        \n<annotation fontStyle="bold"><annotation arg="0">placeholder</annotation></annotation>
+    </string>
+
+    <string name="error_invalid_lnurl_tag_title">آیا این یک برداشت LNURL است؟</string>
+    <string name="error_invalid_lnurl_tag_desc">
+        این یک LNURL معتبر است، ولی نه برای این عملیات.لطفا منبع را بازبینی کنید.
+    </string>
+
+    <string name="error_lnurl_service_unresponsive_title">%s پاسخگو نیست</string>
+    <string name="error_lnurl_service_unresponsive_desc">
+        سرویسی که این کد LNURL را ایجاد کرده است غیر قابل دسترسی است. لطفا بعدا دوباره امتحان کنید.
+    </string>
+
+    <string name="error_lnurl_unknown_title">مشکلی پیش آمده است</string>
+    <string name="error_lnurl_unknown_desc">
+        چیزی از کار افتاده و مطمئن نیستیم چه بوده است. لطفا گزارشی برایمان ارسال کنید
+        تا کمک کند بفهمیم چه اتفاقی افتاده است
+        \n
+        \n<annotation fontStyle="bold">پیام دریافتی:</annotation>
+        \n<annotation arg="0">placeholder</annotation>
+    </string>
+
+    <string name="error_lnurl_invoice_expired_title">@string/notification_ln_payment_failed</string>
+    <string name="error_lnurl_invoice_expired_desc">
+        صورتحساب لایتنینگ شما منقضی شد و <annotation arg="0">placeholder</annotation> پرداخت را
+        کامل نکرد. لطفا برای اطلاعات بیشتر با ایشان تماس بگیرید.
+        \n
+        \n<annotation fontStyle="bold">صورتحساب استفاده شده:</annotation>
+        \n<annotation arg="1">placeholder</annotation>
+    </string>
+
+    <string name="error_lnurl_expired_title">درخواست برداشت منقضی شد</string>
+    <string name="error_lnurl_expired_desc">
+        این LNURL پیش از پرداخت منقضی شده است. لطفا یکی دیگر درخواست کنید.
+    </string>
+
+    <string name="error_lnurl_no_balance_title">موجودی ای برای برداشت وجود ندارد</string>
+    <string name="error_lnurl_no_balance_desc">
+        به نظر می رسد موجودی کافی
+        برای برداشت از <annotation fontStyle="bold"><annotation arg="0">service</annotation></annotation> ندارید.
+        لطفا مانده خود را بررسی کنید که صفر نباشد.
+    </string>
+
+    <string name="error_lnurl_no_route_title">مسیری وجود ندارد</string>
+    <string name="error_lnurl_no_route_desc">
+        به نظر می رسد <annotation fontStyle="bold"><annotation arg="0">service</annotation></annotation>
+        نتوانسته است مسیری برای پرداخت به شما پیدا کند. پیشنهاد می کنیم با
+        <annotation fontStyle="bold"><annotation arg="1">service</annotation></annotation>
+        تماس بگیرید و ایشان را مطلع کنید.
+    </string>
+
+    <string name="error_op_action">برو به صفحه اصلی</string>
+    <string name="error_op_action_back">برگرد</string>
+
+    <!-- Operation detail -->
+    <string name="operation_detail_description">شرح</string>
+    <string name="operation_detail_date">زمان</string>
+    <string name="operation_detail_amount">مبلغ</string>
+    <string name="operation_detail_confirmations">تعداد تأییدها</string>
+    <string name="operation_detail_fee">کارمزد شبکه</string> <!-- default always overridden -->
+    <string name="operation_detail_address_incoming">دریافت شده در آدرس</string>
+    <string name="operation_detail_address_outgoing">ارسال شده به آدرس</string>
+    <string name="operation_detail_txid">شناسه تراکنش</string>
+    <string name="operation_detail_share_txid_title">شناسه تراکنش</string>
+    <string name="operation_detail_invoice">صورتحساب لایتنینگ</string>
+    <string name="operation_detail_swap_hash">هش پرداخت</string>
+    <string name="operation_detail_swap_preimage">پیش تصویر پرداخت</string>
+    <string name="operation_detail_receiving_pubkey">گره دریافت کننده</string>
+    <string name="operation_detail_fee_outgoing">کارمزد پرداخت شده به استخراجگران</string>
+
+    <string name="operation_swap_pending_0conf_desc">
+        در انتظار تأیید پرداخت از سوی دریافت کننده.
+    </string>
+    <string name="operation_swap_pending_desc">
+        این پرداخت منتظر یک تأیید روی شبکه بیتکوین است.
+    </string>
+    <string name="operation_swap_failed_desc">مسیری برای این پرداخت وجود نداشت. 
+        بیتکوینتان تقریبا ظرف %d ساعت (%d بلاک) به شما بازگردانده خواهد شد.
+    </string>
+    <string name="operation_swap_expired_desc">
+        پرداخت ناموفق بود. بیتکوینتان به شما بازگردانده شد.
+    </string>
+    <string name="operation_swap_pending_confirmations_explanation_title">نیازمند تأیید
+    </string>
+    <string name="operation_swap_pending_explanation_desc">این پرداخت لایتنینگ با یک تراکنش روی شبکه بیتکوین همراه خواهد بود.
+        برای انجام پرداخت، تراکنش می بایست تأیید شود.
+    </string>
+    <string name="operation_detail_invoice_copied">صورتحساب در چکنویس نسخه برداری شد</string>
+    <string name="operation_detail_preimage_copied">پیش تصویر پرداخت در چکنویس نسخه برداری شد</string>
+    <string name="operation_detail_payment_hash_copied">هش پرداخت در چکنویس نسخه برداری شد</string>
+    <string name="operation_detail_txid_copied">شناسه پرداخت در چکنویس نسخه برداری شد</string>
+    <string name="operation_detail_amount_copied">مبلغ در چکنویس نسخه برداری شد</string>
+    <string name="operation_detail_fee_copied">کارمزد شبکه در چکنویس نسخه برداری شد</string>
+    <string name="operation_detail_address_copied">آدرس در چکنویس نسخه برداری شد</string>
+    <string name="operation_detail_node_copied">گره دریافت کننده در چکنویس نسخه برداری شد</string>
+
+    <!-- Operation history -->
+    <string name="home_operations_list_title">پرداختها</string>
+    <string name="history_external_incoming_operation_description">از شبکه بیتکوین</string>
+    <string name="history_external_incoming_swap_description">از شبکه لایتنینگ</string>
+    <string name="home_operations_empty">
+        اولین <annotation link="go_to_receive">دریافتتان</annotation> را انجام دهید و شروع کنید! 
+    </string>
+    <string name="home_operations_empty_title">سوابق پرداختهای شما اینجا نمایش داده خواهند شد</string>
+    <string name="operation_sent_to_yourself">به خودتان پرداخت کردید</string>
+    <string name="internal_incoming_operation">%s به شما پرداخت کرد</string>
+    <string name="internal_outgoing_operation">به %s پرداخت کردید</string>
+    <string name="external_incoming_operation">پرداختی به شما انجام شد</string>
+    <string name="external_outgoing_operation">پرداخت کردید</string>
+    <string name="external_outgoing_swap_operation">شما %s پرداختید</string>
+    <string name="lnurl_withdraw_op_detail_title">%s به شما پرداخت کرد</string>
+
+    <!-- Contacts -->
+    <string name="contact_list_empty">
+        <annotation link="go_to_p2p_setup">لیست تماسها را فعال کنید</annotation> تا بتوانید 
+        با استفاده از شماره موبایلتان و لیست تماسها، برای دوستانتان بیتکوین بفرستید.
+    </string>
+    <!-- UI TESTING ONLY: Must match above clickable span  -->
+    <string name="contact_list_empty_clickable_span">لیست تماسها را فعال کنید</string>
+
+    <string name="contact_list_title">تماسها</string>
+
+    <!-- Notifications -->
+    <string name="notifications_new_contact">%s همین الان به مون پیوست!</string>
+    <string name="notifications_amount_received">%s دریافت شد</string>
+    <string name="notifications_amount_received_from">%s به شما %s پرداخت کرد</string>
+    <string name="notifications_op_failed_title">پرداخت شما ناموفق بود</string>
+    <string name="notifications_op_failed_content">برای دیدن جزئیات، کیفتان را باز کنید</string>
+    <string name="notification_receiving_ln_payment">پرداختتان در حال انجام است</string>
+    <string name="notification_receiving_ln_payment_desc">
+        به محض تکمیل از سوی %s وجه خود را دریافت خواهید کرد.
+    </string>
+    <string name="notification_ln_payment_failed">@string/notifications_op_failed_title</string>
+    <string name="notification_ln_payment_failed_desc">
+        صورتحساب لایتنینگ شما منقضی شد و %s پرداخت را تکمیل نکرد.
+    </string>
+    <string name="notification_incoming_ln_payment_pending">برای دریافت بیتکوین، مون را باز کنید</string>
+    <string name="notification_incoming_ln_payment_pending_desc">
+        شخصی با استفاده از لایتنینگ برای شما بیتکوین فرستاده است. برای دریافت، اینجا را لمس کنید.
+    </string>
+    <string name="notification_incoming_ln_payment_pending_cta">قبول دریافت</string>
+
+
+    <!-- Generic strings -->
+    <string name="slogan">کیف غیر حضانتی\nبرای بیتکوین و لایتنینگ</string>
+    <string name="network_error_message">
+        نمی توانیم به سرور مون وصل شویم. این حالت معمولا موقتی است و خود به خود حل می شود.
+        چند ثانیه صبر کنید، اتصال اینترنتتان را بازبینی کنید و دوباره امتحان کنید.
+         اگر مشکل همچنان ادامه داشت، لطفا برای دریافت کمک با <annotation fontStyle="bold">support@muun.com</annotation> تماس بگیرید. 
+    </string>
+
+    <!-- Landing -->
+
+    <string name="signup_start">ایجاد کیف جدید</string>
+    <string name="login_start">بازیابی کیف موجود</string>
+
+    <!-- Signup -->
+
+    <string name="signup_continue">ادامه</string>
+    <string name="signup_title">ثبت نام</string> <!-- unused -->
+    <string name="login_title">کیفتان را بازیابی کنید</string>
+
+    <!-- signup.phone_number -->
+
+    <string name="signup_phone_number_title">تأیید شماره موبایل</string>
+    <string name="signup_phone_number_explanation">
+        شماره موبایل و کشورتان را وارد کنید تا یک کد تأیید دریافت کنید. نرخ های اپراتور موبایل اعمال می شوند. 
+    </string>
+    <string name="signup_phone_number_why_this">چرا؟</string>
+    <string name="signup_phone_number_why_this_title">چرا چنین درخواستی داریم؟</string>
+    <string name="signup_phone_number_why_this_description">
+        مون پرداخت را با استفاده از شماره موبایل شما و لیست تماسها تسهیل می کند.
+        افرادی که شما را می شناسند و شماره موبایلتان را دارند، خواهند توانست با استفاده از مون،
+        به راحتی به شما پرداخت کنند.
+    </string>
+    <string name="signup_phone_number_select_country">کشورتان را انتخاب کنید</string>
+
+    <string name="select_country">کشورتان را انتخاب کنید</string>
+
+    <string name="signup_phone_number_code_helper">کشور</string>
+    <string name="signup_phone_number_phone_helper">شماره موبایل</string>
+    <string name="signup_enter_number">ادامه</string>
+
+    <!-- signup.email -->
+
+    <string name="signup_email_verify">ایمیلتان را تأیید کنید</string>
+    <string name="signup_email_authorize">صدور مجوز بازیابی کیف</string>
+    <string name="signup_email_verify_explanation">
+        شما یک ایمیل تأیید مجوز در
+        <annotation fontStyle="bold"><annotation arg="0">placeholder</annotation></annotation>.
+        دریافت خواهید کرد. لطفا برای ادامه، روی لینک داخل ایمیل کلیک کنید. 
+    </string>
+    <string name="email_verify_open_mail">باز کردن برنامه ایمیل</string>
+
+    <!-- signup.verification -->
+
+    <string name="signup_verification_title">@string/signup_phone_number_title</string>
+    <string name="signup_verification_explanation">
+        شما یک کد تأیید از طریق SMS دریافت خواهید کرد
+    </string>
+    <string name="signup_verification_code_hint">کد 6 رقمی</string>
+    <string name="signup_verification_resend_countdown">این کار ممکن است %d:%02d طول بکشد</string>
+    <string name="signup_verification_resend_message">دریافتش نکردید؟</string>
+    <string name="action_change_num">شماره اشتباه است؟</string>
+    <string name="action_resend_sms">SMS را دوباره ارسال کن</string>
+    <string name="action_call_me">به من زنگ بزن</string>
+    <string name="signup_enter_code">ادامه</string>
+
+    <string name="set_up_rc_step_count">%d از %d</string>
+
+    <!-- LoginEmailFragment -->
+    <string name="login_email_title">ایمیل خود را وارد کنید</string>
+    <string name="login_email_explanation">
+        هنگام ایجاد کیف انتخابش کردید.
+    </string>
+    <string name="login_email_input_hint">ایمیل شما</string>
+    <string name="login_email_action">ادامه</string>
+
+    <!-- signup.profile -->
+
+    <string name="signup_profile_title">پروفایلتان را تکمیل کنید</string>
+    <string name="signup_profile_explanation">
+        اسم کامل و تصویرتان فقط برای کسانی که شماره شما را دارند نمایش داده می شود.
+    </string>
+    <string name="signup_profile_why_this">چه کسی می تواند این را ببیند؟</string>
+    <string name="signup_profile_why_this_title">چه کسی می تواند این اطلاعات را ببیند؟</string>
+    <string name="signup_profile_why_this_explanation">اسم کامل و تصویر شما فقط برای کسانی که
+        شماره موبایل شما را در لیست تماسهایشان دارند نمایش داده می شود.
+    </string>
+    <string name="signup_create_profile">ایجاد پروفایل</string>
+
+    <string name="signup_profile_first_name_hint">نام</string>
+    <string name="signup_profile_last_name_hint">نام خانوادگی</string>
+    <string name="field_first_name">نام</string>
+    <string name="field_last_name">نام خانوادگی</string>
+    <string name="field_password">گذرواژه</string>
+
+    <!-- signup.unlock -->
+
+    <string name="signup_unlock_title">گذرواژه خود را وارد کنید</string>
+    <string name="signup_unlock_forgot">گذرواژه خود را فراموش کرده ام</string>
+    <string name="signup_unlock_continue">ادامه</string>
+    <string name="signup_unlock_password_hint">گذرواژه شما</string>
+    <string name="signup_unlock_password_reminder">
+        <![CDATA[<b>یادآوری:</b> حداقل 8 حرف داشت. این تنها قیدش بود.]]>
+    </string>
+    <string name="signup_unlock_password_abort_title">بازیابی کیف لغو شود؟</string>
+    <string name="signup_unlock_password_abort_msg">
+        بازیابی کیف خود را تکمیل نکردید. می توانید بعدا این کار را انجام دهید.
+    </string>
+    <!-- signup.sync -->
+    <string name="signup_sync_creating">در حال ایجاد کیف شما</string>
+    <string name="signup_sync_loading">در حال بازیابی کیف شما</string>
+
+    <!-- home -->
+    <string name="home_footer_action_send">پرداخت</string>
+    <string name="home_footer_action_receive">دریافت</string>
+    <string name="home_send_feedback_action_title">کمک و بازخورد</string>
+
+    <!-- WelcomeToMuun -->
+    <string name="welcome_to_muun">شما یک کیف جدید ایجاد کردید.\nبه مون خوش آمدید!</string>
+    <string name="welcome_to_muun_cta">بزن بریم</string>
+
+    <!-- Send screen -->
+    <string name="send_header_title">ارسال بیتکوین</string>
+    <string name="send_confirm">ادامه</string>
+    <string name="send_uri_error_title">آدرس یا صورتحساب نامعتبر است</string>
+    <string name="send_uri_error_body"> این یک آدرس بیتکوین یا صورتحساب لایتنینگ نیست.</string>
+
+    <!-- QR scanner -->
+    <string name="qr_scanner_subtitle">@string/camera_permission_request_title</string>
+
+    <!-- request_update -->
+
+    <string name="request_update_title">به روز رسانی لازم است</string>
+    <string name="request_update_subtitle">برای ادامه استفاده از مون، لطفا برنامه را
+        به آخرین نسخه اش به روز رسانی کنید.
+    </string>
+    <string name="request_update_body">فقط چند دقیقه طول می کشد</string>
+    <string name="request_update_action">به روز رسانی</string>
+
+    <!-- request_restart -->
+    <string name="request_restart_title">لازم است راه اندازی دوباره کنید</string>
+    <string name="request_restart_subtitle">برای ادامه استفاده از مون، لطفا برنامه را راه اندازی دوباره
+        و کیفتان را بازیابی کنید.
+    </string>
+    <string name="request_restart_body">امکانات و بهبودهای جدید منتظرند!</string>
+    <string name="request_restart_action">راه اندازی دوباره</string>
+
+    <!-- pin -->
+    <string name="pin_error_on_setup_cancel">"لطفا یک رمز شخصی انتخاب کنید"</string> <!-- unused -->
+    <string name="navigation_back">برگرد</string>
+    <string name="your_pin_did_not_match">رمز شخصی مطابقت ندارد</string>
+    <string name="choose_your_pin">رمز شخصی خود را ایجاد کنید</string>
+    <string name="choose_your_pin_description">کیفتان را امن نگه دارید</string>
+    <string name="choose_your_pin_repeat_description">برای تأیید دوباره وارد کنید</string>
+    <string name="confirm_your_pin">رمز شخصی خود را تأیید کنید</string>
+    <string name="enter_your_pin">رمز شخصی خود را وارد کنید</string>
+    <string name="pin_attempts_left_many">%d امکان تلاش دیگر باقی مانده است</string>
+    <string name="pin_attempts_left_one">فقط 1 امکان تلاش دیگر باقی مانده است</string>
+    <string name="pin_attempts_left_zero">هیچ امکان تلاش دیگری باقی نمانده است</string>
+
+    <!-- Setup Email & Password  -->
+
+    <string name="setup_password_step_counter">%s از %s</string>
+
+    <string name="setup_password_intro_title">برای کیفتان پشتیبان تهیه کنید</string>
+    <string name="setup_password_intro_body">
+        از ایمیلتان و یک گذرواژه استفاده کنید تا به راحتی در صورت تعویض موبایلتان یا نصب دوباره مون،
+        بتوانید کیفتان را بازیابی کنید.
+    </string>
+    <string name="setup_password_intro_title_has_rc">تهیه پشتیبان با گذرواژه</string>
+    <string name="setup_password_intro_body_has_rc">
+        از ایمیلتان و یک گذرواژه استفاده کنید تا به راحتی در صورت تعویض موبایلتان یا نصب دوباره مون،
+        بتوانید کیفتان را بازیابی کنید.
+        \n\n
+        این کار تأیید چندعاملی را فعال می کند که باعث بهبود امنیت هنگام استفاده از کد بازیابی 
+        می شود.
+    </string>
+    <string name="setup_password_intro_action">شروع</string>
+
+    <string name="setup_password_abort_title">راه اندازی بازیابی متوقف شود؟</string>
+    <string name="setup_password_abort_body">
+        گذرواژه شما تا زمانی که این فرآیند را کامل نکرده اید، کار نخواهد کرد.
+    </string>
+
+    <string name="setup_password_skip_title">
+        مطمئنید که نمی خواهید از ایمیل بازیابی استفاده کنید؟
+    </string>
+    <string name="setup_password_skip_body">
+        اگر بعدا نظرتان عوض شد می توانید برگردید.
+    </string>
+    <string name="setup_password_skip_yes">مطمئنم</string>
+    <string name="setup_password_skip_no">لغو</string>
+
+
+    <string name="create_email_title">ایمیل خود را وارد کنید</string>
+    <string name="create_email_subtitle">
+        شما یک لینک تأیید دریافت خواهید کرد.
+        <annotation link="why">مون از ایمیل من چگونه استفاده خواهد کرد؟</annotation>
+    </string>
+    <string name="create_email_input_hint">ایمیل شما</string>
+    <string name="create_email_skip">نمی خواهم از ایمیلم استفاده کنم</string>
+    <string name="create_email_action">تأیید ایمیل</string>
+    <string name="create_email_how_dialog_title">مون از ایمیل من چگونه استفاده خواهد کرد؟</string>
+    <string name="create_email_how_dialog_desc">
+        هربار کسی سعی کند به کیف شما دسترسی پیدا کند، مون یک ایمیل برای دریافت مجوز 
+        به شما ارسال خواهد کرد. این کار از شما در مقابل افراد یا کامپیوترهایی
+        که سعی می کنند گذرواژه شما را حدس بزنند محافظت می کند و اگر کسی چنین کاری بکند به شما هشدار می دهد
+    </string>
+
+    <string name="create_password_title">گذرواژه خود را ایجاد کنید</string>
+    <string name="create_password_subtitle">
+        گذرواژه ای انتخاب کنید که به یادتان بماند. اگر می توانید، از گذرواژه های قدیمی که در حال استفاده از آنها هستید اجتناب کنید.
+    </string>
+    <string name="create_password_input_hint">گذرواژه شما</string>
+    <string name="create_password_confirm_input_hint">گذرواژه خود را تأیید کنید</string>
+    <string name="create_password_input_helper">حداقل به طول 8 حرف</string>
+    <string name="create_password_input_confirm_helper">گذرواژه ها می بایست یکسان باشند</string> <!-- unuse -->
+    <string name="create_password_action">ادامه</string>
+    <string name="create_email_help_link">
+        <annotation link="help">به کمک نیاز دارم</annotation>
+    </string>
+    <string name="create_email_help_content">
+        <annotation role="h1">کیف دیگری در حال استفاده از این ایمیل است</annotation>
+
+        <annotation role="p">
+            اگر به کمک نیاز دارید، لطفا با
+            <annotation link="support">تیم پشتیبانی ما</annotation>
+            تماس بگیرید و اطلاع دهید چه اتفاقی افتاده است. خوشحال خواهیم شد کمک کنیم
+        </annotation> <!-- check link -->
+    </string>
+
+    <string name="verify_email_title">ایمیلتان را تأیید کنید</string>
+    <string name="verify_email_subtitle">
+        شما یک ایمیل تأیید در
+        <annotation fontStyle="bold"><annotation arg="0">%s</annotation></annotation>.
+        دریافت خواهید کرد. برای ادامه، روی لینک داخل ایمیل کلیک کنید.
+    </string>
+    <string name="verify_email_action">برنامه ایمیل را باز کن</string>
+
+    <string name="setup_password_accept_title">دو نکته که می بایست بهشان توجه کنید</string>
+    <string name="setup_password_accept_why">
+        <annotation link="why">چرا مون نمی تواند گذرواژه ام را تنظیم دوباره کند؟</annotation>
+    </string> <!-- check if this fits -->
+    <string name="setup_password_accept_condition_1">
+        متوجه هستم که برای بازیابی کیفم، به گذرواژه ام و دسترسی به ایمیلم نیاز خواهم داشت.
+    </string>
+    <string name="setup_password_accept_condition_2">
+        متوجه هستم که اگر گذرواژه ام را فراموش کردم، مون نمی تواند گذرواژه را برایم تنظیم دوباره کند.
+    </string>
+    <string name="setup_password_accept_action">پایان</string>
+
+    <string name="setup_password_why_cant_reset_title">چرا مون نمی تواند گذرواژه ام را تنظیم دوباره کند؟</string>
+    <string name="setup_password_why_cang_reset_desc">
+        از گذرواژه شما برای رمزگذاری پشتیبان کیفتان استفاده شده است. در نتیجه هیچکس، حتی مون، 
+        نمی تواند بدون آن به پشتیبان کیفتان دسترسی پیدا کند. اگر گذرواژه اصلی خود را فراموش کنید،
+        پشتیبان قابل رمزگشایی و استفاده نخواهد بود.
+    </string>
+
+    <string name="setup_password_success_title">با موفقیت انجام شد!</string>
+    <string name="setup_password_success_body">
+        شما برای کیفتان پشتیبان تهیه کردید و حالا می توانید با استفاده از ایمیل و گذرواژه تان آن را بازیابی کنید.
+    </string>
+    <string name="setup_password_success_action">عالی</string>
+
+    <!-- Setup Recovery Code -->
+    <string name="recovery_code_title">راه اندازی کد بازیابی</string>
+
+    <string name="priming_recovery_code_start">شروع</string>
+    <string name="priming_recovery_code_title">یک پشتیبان جایگزین ایجاد کنید</string>
+    <string name="priming_recovery_code_desc">
+        برای بازیابی کیفتان در صورت فراموش کردن گذرواژه، یک کد را روی کاغذ بنویسید.
+    </string>
+    <string name="priming_recovery_code_email_skipped_title">برای کیفتان پشتیبان تهیه کنید</string>
+    <string name="priming_recovery_code_email_skipped_desc">
+        برای بازیابی کیفتان پس از تعویض موبایلتان یا نصب دوباره مون، 
+        یک کد را روی کاغذ بنویسید.
+    </string>
+
+    <string name="recovery_code_explanation_title">کد بازیابی خود را در جایی یادداشت کنید</string>
+    <string name="recovery_code_explanation">
+        از خودکار و کاغذ استفاده کنید. برای حفظ امنیت، این کد را در موبایلتان یا سرویسهای ابری ذخیره نکنید.
+    </string>
+    <string name="recovery_code_continue">ادامه</string>
+
+    <string name="recovery_code_verify_explanation_title">کد بازیابیتان را تأیید کنید</string>
+    <string name="recovery_code_verify_action">ادامه</string>
+
+    <string name="recovery_code_verify_accept_explanation_title">
+        دو نکته که می بایست بهشان توجه کنید
+    </string>
+    <string name="recovery_code_verify_accept_condition_1">
+        متوجه هستم که در صورت فراموش کردن گذرواژه، به کد بازیابی نیاز خواهم داشت.
+    </string>
+    <string name="recovery_code_verify_accept_condition_1_skipped_email">
+        متوجه هستم که برای بازیابی کیفم، به کد بازیابی نیاز خواهم داشت.
+    </string>
+    <string name="recovery_code_verify_accept_condition_2">
+        متوجه هستم که مون نسخه ای از کد بازیابی من را نگه داری نمی کند و این کد قابل تغییر نیست.
+    </string>
+    <string name="recovery_code_accept">پایان</string>
+
+    <string name="recovery_code_success_message">با موفقیت انجام شد!</string>
+    <string name="recovery_code_success_description">
+        حالا می توانید با استفاده از ایمیل و کد بازیابیتان، کیف خود را بازیابی کنید.
+    </string>
+    <string name="recovery_code_success_description_email_skipped">
+        شما برای کیفتان پشتیبان تهیه کردید و حالا می توانید با استفاده از کد بازیابیتان، دوباره به دستش بیاورید.
+    </string>
+    <string name="recovery_code_success_action">عالی</string>
+
+    <string name="recovery_code_missing_title">کد بازیابی وجود ندارد</string> <!-- unused? -->
+    <string name="recovery_code_missing_message">
+        برای ادامه، می بایست ابتدا کد بازیابیتان را راه اندازی کنید.
+    </string> <!-- unused? -->
+
+    <string name="recovery_code_missing_action">راه اندازی کد بازیابی</string>
+    <string name="recovery_code_error_invalid_character">
+        یک نشانه نامعتبر در این کد وجود دارد.
+    </string>
+
+    <string name="recovery_code_abort_title">راه اندازی کد بازیابی متوقف شود؟</string>
+    <string name="recovery_code_abort_body">
+        کد بازیابی شما تا زمانی که این فرآیند را کامل نکنید کار نخواهد کرد.
+    </string>
+
+    <!-- feedback -->
+    <string name="feedback_title">کمک و بازخورد</string>
+    <string name="feedback_explanation">
+        هر ایده، نظر یا مشکلی دارید برایمان بفرستید. همه شان را می خوانیم!
+    </string>
+    <string name="feedback_input_hint">بازخورد</string>
+    <string name="feedback_action">ارسال بازخورد</string>
+    <string name="feedback_success">بازخورد ارسال شد</string>
+    <string name="anon_feedback_explanation">
+        اگر ایده، نظر یا مشکلی دارید، برایمان به آدرس 
+        <annotation fontStyle="bold">support@muun.com</annotation> ارسال کنید.
+    </string>
+    <string name="anon_feedback_explanation_support_id">
+        لطفا این کد پشتیبانی را ذکر کنید (<annotation arg="0">1111-1111</annotation>).
+    </string>
+    <string name="anon_feedback_open_email">برنامه ایمیل را باز کن</string>
+
+    <!-- other -->
+
+    <string name="operation_rbf">قابل لغو</string>
+    <string name="operation_pending">در حال تأیید</string>
+    <string name="operation_failed">ناموفق</string>
+    <string name="operation_completed">کامل شده</string>
+
+    <string name="copy">نسخه برداری</string>
+    <string name="share">اشتراک گذاری</string>
+
+    <!-- Phone Number Screen defaults -->
+    <string name="default_country_code">US</string>
+    <string name="default_country_prefix_hint">+1</string>
+
+    <string name="signup_forgot_password_recovery_code_explanation">
+        کد بازیابی خود را وارد کنید
+    </string>
+
+    <!--Settings-->
+    <string name="settings_title_profile_hidden">تنظیمات</string>
+    <string name="settings_header_recovery">بازیابی</string>
+    <string name="settings_header_wallet_details">جزئیات کیف</string>
+    <string name="settings_header_general">عمومی</string>
+    <string name="settings_item_email">ایمیل</string>
+    <string name="settings_item_phone">شماره موبایل</string>
+    <string name="settings_item_primary_currency">ارز اصلی</string>
+    <string name="settings_item_bitcoin_unit">واحد بیتکوین</string>
+    <string name="settings_password">تغییر گذرواژه</string>
+    <string name="settings_item_export_keys">پشتیبان گیری از کلیدهای خصوصی</string> <!-- unused -->
+    <string name="settings_setup_recovery_code">را اندازی کد بازیابی</string>
+    <string name="settings_recovery_tool">ابزار بازیابی</string>
+    <string name="settings_version">نسخه %s</string>
+
+    <string name="settings_logout">خروج</string>
+    <string name="settings_logout_alert_title">مطمئنید؟</string>
+    <string name="settings_logout_alert_body">
+        برای دسترسی مجدد به گذرواژه یا کد بازیابیتان نیاز خواهید داشت.
+    </string>
+    <string name="settings_logout_alert_yes">خروج</string>
+    <string name="settings_logout_alert_no">لغو</string>
+
+    <string name="settings_logout_explanation_title">
+        الان نمی توانید خارج شوید
+    </string>
+    <string name="settings_logout_explanation_description">
+        تراکنشهایی که دریافت کرده اید در انتظار تأیید شبکه هستند.
+        قبل از خروج، صبر کنید که تأیید شوند.
+    </string>
+    <string name="settings_logout_explanation_action">باشه</string>
+
+    <string name="settings_delete_wallet">حذف کیف</string>
+    <string name="settings_delete_wallet_alert_title">
+        مطمئنید؟
+    </string>
+    <string name="settings_delete_wallet_alert_body">
+        سوابق تراکنشهایتان را از دست خواهید داد.
+    </string>
+    <string name="settings_delete_wallet_alert_yes">حذف</string>
+    <string name="settings_delete_wallet_alert_no">لغو</string>
+
+    <string name="delete_wallet_success_message">شما کیفتان را حذف کردید</string>
+    <string name="delete_wallet_success_description">
+        از اینکه می روید متأسفیم. دوست داریم دلیلش را بدانیم. با ما از طریق
+        <annotation link="support">تیم پشتیبانی</annotation> تماس بگیرید و آگاهمان کنید.
+    </string>
+    <string name="delete_wallet_success_action">پایان</string>
+
+    <string name="settings_delete_wallet_explanation_title">
+        الان نمی توانید کیفتان را حذف کنید
+    </string>
+    <string name="settings_delete_wallet_explanation_description">
+        شما می بایست کیفتان را خالی کنید. یک پرداخت با تمام موجودیتان انجام دهید
+        و پس از اینکه آن تراکنش 6 تأیید دریافت کرد، دوباره امتحان کنید.
+    </string>
+    <string name="settings_delete_wallet_explanation_action">باشه</string>
+
+    <string name="settings_edit_first_name">نام</string>
+    <string name="settings_edit_last_name">نام خانوادگی</string>
+    <string name="edit_username_save">ذخیره</string>
+    <string name="edit_username_title">ویرایش نام</string>
+
+    <string name="select_primary_currency_title">ارز اصلی</string>
+    <string name="search_currency_title">جستجوی ارز</string>
+    <string name="search_currency_hint">جستجو</string>
+    <string name="select_currency_most_popular_section_title">پرطرفدارترین</string>
+    <string name="select_currency_all_section_title">کشورها</string>
+
+    <string name="edit_password_explanation">
+        گذرواژه شما برای تأمین امنیت استفاده می شود.
+        \nبرای تغییر آن، لازم است به ایمیلتان و گذرواژه کنونی یا کد بازیابیتان دسترسی داشته باشید.
+    </string>
+    <string name="edit_password_start">شروع</string>
+
+    <string name="export_keys_intro_action">بسته اضطراری خود را ایجاد کنید</string>
+    <string name="swipe_to_continue">برای ادامه بکشید</string>
+
+    <string name="export_keys_intro_1_title">یک سند</string>
+    <string name="export_keys_intro_1_body">
+        بسته اضطراری شما یک فایل PDF است که حاوی اطلاعات و دستورالعملهای لازم
+        برای انتقال مستقل بیتکوین شما است.
+    </string>
+
+    <string name="export_keys_intro_2_title">ذخیره شده در فضای برخط</string>
+    <string name="export_keys_intro_2_body">
+        کلیدهای خصوصی شما به صورت امنی با استفاده از کد بازیابی شما رمزنگاری شده اند. 
+        در نتیجه می توانید در فضای ابری ذخیره شان کنید.
+    </string>
+
+    <string name="export_keys_intro_3_title">مالکیت کامل</string>
+    <string name="export_keys_intro_3_body">
+        با ترکیب بسته اضطراری و کد بازیابیتان، کنترل مطلق و بی چون و چرا
+        بر بیتکوین خود خواهید داشت.
+    </string>
+
+    <string name="export_keys_intro_why_encrypted_title"> <!--unused -->
+        چرا کلیدهای خصوصی من رمزنگاری شده اند؟
+    </string>
+    <string name="export_keys_intro_why_encrypted_body"> <!--unused -->
+        کلیدهای خصوصی شما برای بهبود امنیتشان رمزگذاری می شوند. این کار باعث می شود از 
+        افشای این کلیدها توسط شما پس از نوشتن روی کاغذ جلوگیری شود و همچنین امکان ذخیره آنها را به صورت امن در فضای برخط فراهم می کند.
+        \n
+        \nدر مون، شما می توانید با کلیک روی یک ایمیل و وارد کردن گذرواژه خود، دسترسی به کیفتان را بازیابی کنید.
+        کلیدهای خصوصی فقط در موارد استثنائی که مون قادر به کمک نیست 
+        استفاده خواهند شد.
+        \n
+        \nبرای جنان مواردی، ما یک ابزار متن باز ساخته ایم که امکان رمزگشایی و خالی کردن بیتکوین را 
+        برای شما فراهم می کند.
+    </string>
+
+    <string name="export_keys_preparing">در حال آماده سازی کلیدهای خصوصی</string>
+    <string name="export_keys_preparing_error_title">مشکلی پیش آمده است</string>
+    <string name="export_keys_preparing_error_desc">
+        هنگام آماده سازی کلیدهای خصوصی شما خطایی رخ داد. دوباره امتحان کنید.
+    </string>
+
+    <!--unused -->
+    <string name="recovery_tool_header">ابزار بازیابی</string>
+    <string name="recovery_tool_info_title">
+         از ابزار بازیابی برای پس گرفتن پول خود استفاده کنید
+    </string>
+    <string name="recovery_tool_info_body">
+        اگر به هر دلیلی مون از دسترس خارج شد، از این طریق می توانید بدون نیاز به
+        سرورهای ما، تمام بیتکوینتان را بازیابی کنید.
+        \n\nبرای بازیابی داراییهایتان از کلیدهای خصوصی، کد بازیابی و ابزار بازیابی استفاده کنید.
+        \n\nمی توانید در اینجا به ابزار بازیابی و دستورالعمل فرآیند بازیابی دسترسی داشته باشید
+    </string>
+
+    <!-- Security logout -->
+    <string name="security_logout_action">بازیابی کیف شما</string>
+    <string name="security_logout_text">شما خارج شده بودید</string>
+    <string name="security_logout_subtext">
+        به عنوان یک اقدام امنیتی خارج شده بودید. برای ادامه، دوباره وارد شوید.
+    </string>
+
+    <string name="edit_profile_pic">ویرایش تصویر پروفایل</string>
+    <string name="action_pick_profile_pic_title">تصویری را انتخاب کنید</string>
+    <string name="action_camera">عکس بگیرید</string>
+    <string name="action_gallery">از گالری گوشی</string>
+    <string name="uploading_picture">در حال بارگذاری تصویر</string>
+
+    <string name="enter_old_password_explanation_title">گذرواژه خود را وارد کنید</string>
+    <string name="enter_old_password_explanation">تأیید کنید که مالک این کیف هستید.</string>
+    <string name="enter_old_password_hint">گذرواژه کنونی</string>
+    <string name="use_recovery_code">استفاده از کد بازیابی</string>
+    <string name="enter_old_password_continue">شروع</string>
+
+    <string name="enter_recovery_code_title">کد بازیابی خود را وارد کنید</string>
+    <string name="enter_recovery_code_continue">ادامه</string>
+    <string name="use_password">استفاده از گذرواژه</string>
+
+    <string name="change_password_title">گذرواژه جدید خود را وارد کنید</string>
+    <string name="change_password_hint">گذرواژه جدید</string>
+    <string name="change_password_helper_text">@string/create_password_input_helper</string>
+    <string name="change_password_condition">
+        متوجه هستم که گذرواژه قبلی ام دیگر معتبر نیست.
+    </string>
+    <string name="change_password_continue">تأیید گذرواژه جدید</string>
+    <string name="change_password_abort_dialog_title">فرآیند تغییر گذرواژه متوقف شود؟</string>
+    <string name="change_password_abort_dialog_message">
+        تا زمانی که این فرآیند را تکمیل نکنید، گذرواژه جدیدتان کار نخواهد کرد.
+    </string>
+    <string name="change_password_abort_dialog_yes">توقف</string>
+    <string name="change_password_abort_dialog_no">لغو</string>
+    <string name="change_password_success_action">عالی</string>
+    <string name="change_password_success_message">
+        از گذرواژه جدیدتان برای بازیابی کیفتان استفاده کنید.
+    </string>
+
+    <!-- Tools mock strings (to preview in layout design screen) -->
+    <string name="tools_mock_long_name">این نخستین بار است که بیتکوین به مثابه ابزار نبرد آزادیخواهان از یوغ برگردی
+        ستمگرانی بی خویشتن استفاده می شود تا ثابت کند که نه تنها ریشه ی حقوق مالکیت، بلکه ریشه ی حقوق است.
+    </string>
+
+    <!-- Sync Contacts - P2PSetup-->
+    <string name="sync_contacts_title">صدور اجازه دسترسی به لیست تماسهای شما</string>
+    <string name="sync_contacts_explanation">
+        شماره های موجود در لیست تماسهای شما هیچگاه به مون ارسال نمی شوند.
+    </string>
+    <string name="sync_contacts_how_it_works">این چگونه کار می کند؟</string>
+    <string name="sync_contacts_image">همگام سازی تصاویر لیست تماس</string>
+    <string name="sync_contacts_button_text">صدور اجازه دسترسی</string>
+    <string name="sync_contacts_how_it_works_title">این چگونه کار می کند؟</string>
+    <string name="sync_contacts_how_it_works_title_description">
+        فقط هش شماره های موبایل به مون ارسال می شوند و نه خود شماره های موبایل.
+        با مقایسه این هش ها، دوستانتان که از مون استفاده می کنند در لیست تماسهای شما نمایش داده می شوند.
+    </string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">مون</string>
+
+    <string name="first_on_muun_image">First on muun image</string> <!-- QUESTION: What is this?? -->
+    <string name="first_on_muun_description">
+        شما هنوز کسی را در لیست تماسهایتان ندارید که از مون استفاده کند. وقتی آنها هم
+        لیست تماسهایشان را فعال کنند، اینجا پیدایشان خواهید کرد.
+    </string>
+    <string name="home_contacts_loading">در حال بررسی لیست تماسها</string>
+    <string name="home_contacts_permission_denied_forever_text">
+        مون برای نمایش لیست تماسهای شما نیاز به دسترسی به تماسها دارد، ولی این دسترسی
+        به صورت دائمی منع شده است.
+        \n\n
+        لطفا به منوی تنظیمات برنامه بروید و 
+        <annotation fontStyle="bold">مجوزها</annotation>,
+        را انتخاب کنید و  <annotation fontStyle="bold">لیست تماسها</annotation> را فعال کنید.
+    </string>
+    <string name="home_contacts_permission_denied_forever_action">به تنظیمات برو</string>
+    <string name="select_currency_title">تغییر ارز</string>
+
+    <!-- ERRORS -->
+    <string name="error_amount_too_small">این مبلغ بیش از اندازه کم است</string>
+    <string name="error_network_error">خطای شبکه، بعدا دوباره امتحان کنید.</string> <!-- unused? -->
+    <string name="error_country_not_supported">
+        متاسفیم! مون هنوز در کشور شما در دسترس نیست.
+    </string>
+    <string name="error_deprecated_client_version">
+        این نسخه بیش از اندازه قدیمی است. می بایست برنامه مون خود را به روز رسانی کنید.
+    </string>
+    <string name="error_email_already_used">کیف دیگری در حال استفاده از این ایمیل است</string>
+    <string name="error_email_not_registered">این ایمیل ثبت نشده است</string>
+    <string name="error_field_required">%s لازم است</string>
+    <string name="error_expired_session">
+        مهلت شما تمام شده است. لطفا با این ایمیل تماس بگیرید
+        <annotation link="support">support@muun.com</annotation>.
+    </string> <!-- TODO link handling -->
+    <string name="error_verification_code_expired">
+        کد تأیید شما منقضی شده است. یک کد جدید برایتان می فرستیم
+    </string>
+    <string name="error_incorrect_password">گذرواژه اشتباه است. لطفا دوباره امتحان کنید.</string>
+    <string name="error_incorrect_recovery_code">کد بازیابی اشتباه است. لطفا دوباره امتحان کنید.</string>
+    <string name="error_insufficient_funds">موجودی کافی نیست</string>
+    <string name="error_invalid_address">
+        این آدرس بیتکوین یا صورتحساب لایتنینگ نامعتبر است
+    </string>
+    <string name="error_invalid_email_address">آدرس ایمیل نامعتبر است</string>
+    <string name="error_invalid_operation_uri">
+        جزئیات پرداخت ارائه شده نامعتبر هستند
+    </string> <!-- unused -->
+    <string name="error_invalid_payment_request">لینک پرداخت نامعتبر است</string>
+    <string name="error_invalid_phone_number">شماره موبایل نامعتبر است</string>
+    <string name="error_invalid_picture">تصویر قابل پردازش نیست</string>
+    <string name="error_invalid_verification_code">
+        کد تأیید اشتباه است. لطفا دوباره امتحان کنید.
+    </string>
+    <string name="error_password_too_short">گذرواژه بیش از اندازه کوتاه است</string>
+    <string name="error_passwords_dont_match">گذرواژه ها یکسان نیستند</string>
+    <string name="error_phone_number_already_used">
+        کیف دیگری در حال استفاده از این شماره موبایل است
+    </string> <!-- unused???? -->
+    <string name="error_recovery_code_verification">کد اشتباه است. لطفا دوباره امتحان کنید.</string>
+    <string name="error_revoked_verification_code">
+        این کد تأیید قدیمی است. لطفا آخرین کدی را که دریافت کردید امتحان کنید.
+    </string>
+    <string name="error_verification_code_limit_reached">
+        تلاشهای ناموفق زیادی داشتید. یک کد جدید دریافت خواهید کرد
+    </string>
+    <string name="error_no_valid_payment_details_provided">
+        جزئیات پرداخت ارائه شده نامعتبر هستند
+    </string>
+    <string name="error_ln_invoice_not_supported"> <!-- unused -->
+        متأسفیم! این صورتحساب لایتنینگ هنوز پشتیبانی نمی شود.
+    </string>
+    <string name="error_generic">خطایی رخ داده است. لطفا دوباره امتحان کنید</string>
+
+    <string name="error_dialog_let_us_know">آگاهمان کنید</string>
+
+    <string name="error_send_report_dialog_title">خطایی غیرمنتظره رخ داده است</string>
+    <string name="error_send_report_dialog_body">
+        مشکلی پیش آمده است ولی نمی دانیم چیست. گزارشی از این خطا تهیه کرده ایم که می توانیم
+        برای کمک به شما از آن استفاده کنیم. لطفا به این آدرس ارسالش کنید
+        <annotation fontStyle="bold">support@muun.com</annotation>.
+    </string>
+    <string name="error_send_report_dialog_body_short">
+        گزارشی از این خطا تهیه کرده ایم که می توانیم برای کمک به شما از آن استفاده کنیم. لطفا به این آدرس ارسالش کنید
+        <annotation fontStyle="bold">support@muun.com</annotation>.
+    </string>
+    <string name="error_send_report_dialog_yes">ارسال گزارش</string>
+    <string name="error_report_email_subject">گزارش خطای مون</string>
+    <string name="error_copy_report_dialog_title">هیچ برنامه ایمیلی نصب نشده است</string>
+    <string name="error_copy_report_dialog_body">
+        شما می توانید گزارش خطا را نسخه برداری کنید و از روش دیگری برایمان ارسال کنید.
+    </string>
+    <string name="error_copy_report_dialog_yes">نسخه برداری در چکنویس</string>
+    <string name="error_no_email_client_installed">
+        هیچ برنامه ایمیلی نصب نشده است.
+    </string>
+    <string name="error_no_web_client_installed">
+        هیچ برنامه کاوشگر وبی نصب نشده است.
+    </string>
+
+    <!-- Edit Fee -->
+    <string name="edit_fee_title">ویرایش کارمزد شبکه</string>
+    <string name="edit_fee_confirm">تأیید کارمزد</string>
+    <string name="fee_options_message">یک زمان تأیید انتخاب کنید</string>
+    <string name="fee_options_whats_this">این چیست؟</string>
+    <string name="fee_option_item_title">کمتر از</string>
+    <string name="fee_option_item_hs">%d ساعت</string>
+    <string name="fee_option_item_mins">%d دقیقه</string>
+    <string name="fee_option_item_hs_mins">%d ساعت %d دقیقه</string>
+    <string name="fee_option_item_fee_rate">%s sat/vbyte</string>
+    <string name="enter_fee_manually">ورود دستی کارمزد</string>
+    <string name="manual_fee_entered">کارمز دستی وارد شده</string>
+    <string name="fee_options_whats_this_explanation_title">
+        کارمزد شبکه و زمانهای تأیید
+    </string>
+    <string name="fee_options_whats_this_explanation_desc">
+        مون کارمزدی را که برای تأیید تراکنشتان ظرف مدت کمتر از 30 دقیقه لازم است 
+        محاسبه و پیشنهاد می کند.
+        \n\nکارمزد بیشتر، باعث اولویت بخشی به تراکنشتان خواهد شد و کارمزد کمتر ممکن است باعث شود 
+        تأیید تراکنشتان ساعتها طول بکشد.
+        \n\nکارمزد بهینه هنگامی که فعالیت شبکه بیشتر است افزایش می یابد. اگر هنگامی که هنوز تراکنشتان تأیید نشده است 
+        کارمزدها افزایش پیدا کنند، ممکن است تأیید بیشتر طول بکشد.";
+    </string>
+    <string name="manual_fee_message">ورود دستی کارمزد</string>
+    <string name="manual_fee_how_this_works">این چیست؟</string>
+    <string name="manual_fee_how_this_works_explanation_title">
+        کارمزد شبکه و زمانهای تأیید
+    </string>
+    <string name="manual_fee_how_this_works_explanation_desc">
+        ساتوشی بر بایت مجازی (sat/vbyte) واحدی برای سنجش اولویت تراکنش است.
+        \n\nکارمزد بیشتر، باعث اولویت بخشی به تراکنشتان خواهد شد و کارمزد کمتر 
+        ممکن است باعث شود تأیید پرداخت ساعتها طول بکشد.
+        \n\nکارمزد بهینه هنگامی که فعالیت شبکه بیشتر است افزایش می یابد. اگر هنگامی که هنوز پرداختتان تأیید نشده است 
+        کارمزدها افزایش پیدا کنند، ممکن است تأیید بیشتر طول بکشد.
+    </string>
+    <string name="manual_fee_insufficient_funds_message">موجودی کافی نیست</string>
+    <string name="manual_fee_insufficient_funds_desc">کارمزد کمتری وارد کنید.</string>
+    <string name="manual_fee_low_warning_message">کارمزد بیش از اندازه کم است</string>
+    <string name="manual_fee_low_warning_desc">
+        ممکن است تأیید این تراکنش چند روز طول بکشد.
+    </string>
+    <string name="manual_fee_too_high_message">کارمزد بیش از اندازه زیاد است</string>
+    <string name="manual_fee_too_high_desc">کارمزدی کمتر از %s sat/vbyte وارد کنید.</string>
+    <string name="sat_byte">sat/vbyte</string>
+    <string name="use_all_funds_warning_message">توجه</string>
+    <string name="use_all_funds_warning_desc">
+        به علت استفاده از تمام موجودی، کارمزد از مبلغ کل پرداختتان 
+        کم می شود.
+    </string>
+    <string name="fee_options_use_all_funds_warning_desc">
+        به علت استفاده از تمام موجودی، تغییر کارمزد باعث تغییر در مبلغ تراکنش خواهد شد.
+    </string>
+    <string name="manual_fee_high_traffic_error_message">کارمزد بیش از اندازه کم است</string>
+    <string name="manual_fee_high_traffic_error_desc">
+        ترافیک شبکه بیتکوین به طرز غیرمعمولی بالاست 
+        و تراکنش هایی با کارمزد کمتر از %s sat/vbyte را پردازش نمی کند
+    </string>
+    <string name="manual_fee_too_low_error_message">کازمرد بیش از اندازه کم است</string>
+    <string name="manual_fee_too_low_error_desc">کارمزدی بیشتر از %s sat/vbyte وارد کنید.</string>
+    <string name="new_op_insufficient_funds_warn_message">توجه</string>
+    <string name="new_op_insufficient_funds_warn_desc">
+        موجودی برای پرداخت کارمزد بهینه شبکه کافی نیست.
+        <annotation fontColor="muunBlue"> کارمزد شبکه را انتخاب کنید </annotation> تا ادامه دهیم.
+    </string>
+    <string name="use_maximum_fee">استفاده از حداکثر کارمزد</string>
+    <string name="new_op_error_required_amount">جمع (مبلغ + حداقل کارمزد)</string>
+    <string name="new_op_error_total_balance">مانده شما</string>
+
+
+    <!-- show_qr aka RECEIVE -->
+    <string name="show_qr_copied">در چکنویس نسخه برداری شد</string>
+    <string name="tab_bitcoin_address">بیتکوین</string>
+    <string name="tab_ln_invoice">لایتنینگ</string>
+    <string name="legacy_address_info">آدرس قدیمی بیتکوین</string>
+    <string name="your_bitcoin_address">آدرس بیتکوین شما</string>
+    <string name="your_compat_bitcoin_address">آدرس قدیمی شما</string>
+    <string name="your_taproot_bitcoin_address">آدرس بیتکوین شما</string>
+    <string name="your_ln_invoice">صورتحساب لایتنینگ شما</string>
+    <string name="show_qr_invoice_loading">در حال ایجاد صورتحساب</string>
+    <string name="show_qr_invoice_expired">
+        این صورتحساب پیش از پرداخت منقضی شده است. لطفا یکی دیگر ایجاد یا درخواست کنید.
+    </string>
+    <string name="show_qr_invoice_create_other">ایجاد صورتحساب</string>
+
+    <string name="address_share_title">ارسال به...</string>
+
+    <string name="secure_storage_error">
+        محیط ذخیره سازی امن موبایل شما خراب شده یا در آن نفوذ شده است. 
+        مون برای حفظ امنیت خارج شده است. لطفا برای دریافت کمک با 
+        <annotation fontStyle="bold">support@muun.com</annotation> تماس بگیرید.
+    </string>
+    <string name="secure_storage_error_avoid_crash_non_logout">
+        محیط ذخیره سازی امن موبایل شما خراب شده یا در آن نفوذ شده است.
+        مون در این شرایط نمی تواند به کار ادامه دهد. لطفا برای کمک با
+        <annotation fontStyle="bold">support@muun.com</annotation> تماس بگیرید.
+    </string>
+
+    <string name="select_bitcoin_unit_title">واحد بیتکوین</string>
+    <string name="select_bitcoin_unit_btc">بیتکوین (BTC)</string>
+    <string name="select_bitcoin_unit_sat">Bitcoin (SAT)</string> <!-- QUESTION: Should not this be Satoshi? -->
+
+    <!-- Security center -->
+    <string name="security_center_title">مرکز امنیت</string>
+    <string name="security_center_title_improve_your_security">امنیت خود را ارتقا دهید</string>
+    <string name="security_center_title_backup_your_wallet">برای کیفتان پشتیبان تهیه کنید</string>
+    <string name="task_email_skipped">رد شده</string>
+    <string name="task_email_pending_title">برای کیفتان پشتیبان تهیه کنید</string>
+    <string name="task_email_pending_body">
+        یک روش بازیابی ایجاد کنید تا اگر موبایلتان را عوض کردید یا مون را دوباره نصب کردید مشکلی برایتان ایجاد نشود.
+    </string>
+
+    <string name="task_email_skipped_body">
+        از ایمیلتان و یک گذرواژه برای بازیابی کیفتان استفاده کنید.
+    </string>
+
+    <string name="task_email_done_title">شما برای کیفتان پشتیبان تهیه کردید</string>
+    <string name="task_email_done_body">
+        شما می توانید از
+        <annotation fontStyle="bold"><annotation arg="0">placeholder</annotation></annotation>
+        و گذرواژه خود برای بازیابی کیفتان استفاده کنید.
+    </string>
+
+    <string name="task_rc_title_pending">یک پشتیبان جایگزین ایجاد کنید</string>
+    <string name="task_rc_title_done">شما یک پشتیبان جایگزین ایجاد کردید</string>
+    <string name="task_rc_body_pending">
+        برای هنگامی که گذرواژه تان را فراموش کردید، یک کد را روی کاغذ بنویسید.
+    </string>
+    <string name="task_rc_body_inactive">
+        برای امنیت بیشتر، یک کد را روی کاغذ بنویسید.
+    </string>
+    <string name="task_rc_body_email_skipped">
+        برای بازیابی کیفتان، یک کد را روی کاغذ بنویسید.
+    </string>
+    <string name="task_rc_body_done_email_skipped">
+        شما می توانید برای بازیابی کیفتان از کدی که یادداشت کردید استفاده کنید.
+    </string>
+    <string name="task_rc_body_done">
+        شما می توانید از
+        <annotation fontStyle="bold"><annotation arg="0">placeholder</annotation></annotation>
+        و کدی که یادداشت کردید برای بازیابی کیفتان استفاده کنید.
+    </string>
+
+    <string name="task_export_keys_pending_title">ایجاد یک بسته اضطراری</string>
+    <string name="task_export_keys_pending_body">
+        اطلاعاتی که برای بازیابی بیتکوینتان بدون استفاده از مون لازم است را ذخیره کنید.
+    </string>
+
+    <string name="task_export_keys_done_title">شما یک بسته اضطراری ایجاد کردید</string>
+    <string name="task_export_keys_done_body">
+        برای بازیابی بیتکوینتان بدون استفاده از مون، دستورالعمل نوشته شده در بسته اضطراریتان که ذخیره اش کرده اید را اجرا کنید.
+    </string>
+
+    <string name="task_export_keys_done_title_old">از کلیدهایتان خروجی گرفتید</string>
+    <string name="task_export_keys_done_body_old">
+        شما کلیدهای خصوصیتان را یادداشت کردید. برای بازیابی بیتکوینتان بدون استفاده از مون، از کلیدهای خصوصیتان به همراه کد بازیابی و 
+        <annotation link="recovery_tool">ابزار بازیابی</annotation>
+        استفاده کنید.
+    </string>
+
+    <string name="task_export_keys_again">یک بسته اضطراری دیگر ایجاد کنید</string>
+
+    <string name="sc_task_header_0">کیف شما بدون پشتیبان است</string>
+    <string name="sc_task_header_1">کیف شما یک پشتیبان ساده دارد</string>
+    <string name="sc_task_header_2">شما یک گام با راه اندازی کامل فاصله دارید</string>
+    <string name="sc_task_header_3">شما راه اندازی را کامل کردید</string>
+
+    <!-- Emergency Kit -->
+    <string name="ek_title">بسته اضطراری</string>
+    <string name="ek_save_title">بسته اضطراری خود را ذخیره کنید</string>
+    <string name="ek_save_explanation">
+        ما پیشنهاد می کنیم که از ذخیره سازی ابری استفاده کنید تا بسته اضطراریتان هیچوقت گم نشود.
+        <annotation link="why">آیا این کار امن است؟</annotation>
+    </string>
+
+    <string name="ek_save_drive_no_internet">
+        نمی توانیم از Drive استفاده کنیم: دسترسی به اینترنت قطع شده است
+    </string>
+    <string name="ek_verify_title">بسته اضطراری خود را تأیید کنید</string>
+    <string name="ek_verify_explanation">
+        برای اطمینان از اینکه همه چیز درست انجام شده است، کد تأیید 
+        در گوشه بالا سمت راست سند را وارد کنید.
+    </string>
+    <string name="ek_verify_hint">123456</string>
+    <string name="ek_verify_helper">کد 6 رقمی</string>
+    <string name="ek_verify_failed">کد تأیید نامعتبر است</string>
+    <string name="ek_verify_old">
+        این کد قدیمی است. آخرین بسته اضطراری خود را ببینید\n(کد شما با %s شروع می شود)
+    </string>
+    <string name="ek_verify_need_help"><annotation link="help">به کمک نیاز دارید؟</annotation></string>
+    <string name="ek_verify_help_title">نمی توانید کد تأیید را پیدا کنید؟</string>
+    <string name="ek_verify_help_body">کد تأیید، یک
+        <annotation fontStyle="bold">عدد 6 رقمی</annotation> است که در گوشه بالا سمت راست 
+        بسته اضطراری شما قرار دارد.
+    </string>
+    <string name="ek_verify_action">تأیید کد</string>
+    <string name="ek_verify_help_save">
+        اگر نمی توانید بسته اضطراریتان را پیدا کنید، <annotation link="">دوباره ذخیره اش کنید.</annotation>
+    </string>
+    <string name="ek_cloud_verify_title">بسته اضطراری خود را تأیید کنید</string>
+    <string name="ek_cloud_verify_desc">
+        شما بسته اضطراری خود را در Google Drive ذخیره کردید. قبل از ادامه، بروید و پیدایش کنید و محتویاتش را ببینید.
+        مطمئن شوید که می توانید در آینده هم این کار را انجام دهید.
+    </string>
+    <string name="ek_cloud_verify_open_drive">در Drive باز کن</string>
+    <string name="ek_cloud_verify_done">انجام شد</string>
+    <string name="ek_success_title">با موفقیت انجام شد!</string>
+    <string name="ek_success_desc">شما مالک مطلق و بی چون و چرای بیتکوینتان هستید.</string>
+    <string name="ek_success_action">عالی</string>
+    <string name="ek_abort_title">می خواهید خروجی گرفتن از بسته اضطراری متوقف شود؟</string>
+    <string name="ek_abort_body">
+        فرآیند خروجی گرفتن از بسته اضطراری خود را تمام نکردید. می توانید بعدا این فرآیند را دوباره شروع کنید.
+    </string>
+    <string name="ek_uploading_body">
+        در حال بارگذاری بسته اضطراری شما
+    </string>
+    <string name="ek_updating_body">
+        در حال به روز رسانی بسته اضطراری شما
+    </string>
+    <string name="ek_upload_error_title">بسته اضطراری شما ذخیره نشد</string>
+    <string name="ek_upload_error_body">
+        نتوانستیم بسته اضطراری شما را در سرویس ابری ذخیره کنیم. 
+        لطفا اتصالتان به اینترنت را بررسی کنید و دوباره امتحان کنید.
+    </string>
+
+    <string name="ek_manual_advice_title">
+        می خواهید بسته اضطراری را به صورت دستی ذخیره کنید؟\nچند نکته که خوب است رعایتشان کنید.
+    </string>
+    <string name="ek_manual_advice_1">
+        <annotation fontStyle="bold">دسترس پذیرش کنید</annotation>. شما می بایست همیشه به بسته اضطراری خود دسترسی داشته باشید، 
+        حتی اگر موبایلتان گم شد یا دزدیده شد یا از کار افتاد.
+    </string>
+    <string name="ek_manual_advice_2">
+        <annotation fontStyle="bold">به پنهانکاری اولویت ندهید</annotation>. به خاطر داشته باشید که بسته اضطراری شما رمزگذاری شده است. 
+        بدون کد بازیابی شما، بسته ی اضطراری حتی اگر به دست کسی بیافتد بی خطر است.
+    </string>
+    <string name="ek_manual_advice_3">
+        <annotation fontStyle="bold">به روز رسانیش را آسان کنید</annotation>. همیشه می بایست آخرین بسته اضطراری را داشته باشید. 
+        بسته های قدیمی کار نمی کنند.
+    </string>
+    <string name="ek_manual_advice_action">ذخیره دستی</string>
+
+    <!-- Email DeepLink errors -->
+
+    <string name="email_link_error_title">آخرین ایمیلتان را باز کنید</string>
+
+    <string name="authorize_email_link_expired">
+        صدور مجوز به علت استفاده از یک لینک منقضی، ناموفق بود. روی لینکی
+        که داخل آخرین ایمیل دریافتیتان هست کلیک کنید.
+    </string>
+
+    <string name="authorize_email_link_invalid">
+        صدور مجوز به علت استفاده از یک لینک نامعتبر، ناموفق بود. روی لینکی
+        که داخل آخرین ایمیل دریافتیتان هست کلیک کنید.
+    </string>
+
+    <string name="verify_email_link_expired">
+        تأیید به علت استفاده از یک لینک منقضی، ناموفق بود. روی لینکی
+        که داخل آخرین ایمیل دریافتیتان هست کلیک کنید.
+    </string>
+
+    <string name="verify_email_link_invalid">
+        تأیید به علت استفاده از یک لینک نامتعبر، ناموفق بود. روی لینکی
+        که داخل آخرین ایمیل دریافتیتان هست کلیک کنید.
+    </string>
+
+    <string name="confirm_email_link_expired">
+        صدور مجوز به علت استفاده از یک لینک منقضی، ناموفق بود. روی لینکی
+        که داخل آخرین ایمیل دریافتیتان هست کلیک کنید.
+    </string>
+
+    <string name="confirm_email_link_invalid">
+        صدور مجوز به علت استفاده از یک لینک نامعتبر، ناموفق بود. روی لینکی
+        که داخل آخرین ایمیل دریافتیتان هست کلیک کنید.
+    </string>
+
+    <!-- Email-less Recovery aka RC Only Login -->
+    <string name="recover_with_recovery_code">بازیابی توسط کد بازیابی</string>
+
+    <string name="rc_only_login_recovery_code_explanation">کد بازیابی خود را وارد کنید</string>
+    <string name="rc_only_login_continue">ادامه</string>
+    <string name="rc_only_login_whats_this">
+        <annotation link="whatsThis">این چیست؟</annotation>
+    </string>
+    <string name="rc_only_login_whats_this_dialog_title">کد بازیابی چیست؟</string>
+    <string name="rc_only_login_whats_this_dialog_body"> <!-- evaluar "looks like this" -->
+        کد بازیابی مجموعه ای از اعداد و حروف تصادفی است که برای تهیه یک 
+        پشتیبان رمزنگاری شده از کلیدهای خصوصی شما استفاده می شود.
+    </string>
+    <string name="rc_only_login_error">
+        کد بازیابی اشتباه است. لطفا بازبینی اش کنید و دوباره امتحان کنید.
+    </string>
+    <string name="ek_emergency_kit_save_failure">
+        ذخیره سازی بسته اضطراری در موبایلتان ناموفق بود. لطفا دوباره امتحان کنید یا با ما تماس بگیرید.
+    </string>
+
+    <!--
+    Note for future us: we put an arbitrary \n because of weird text wrapping problems in some
+    devices where 2nd line is not shown. Has to do with LinearLayout + TextView width interaction.
+    Easily reproduced in Editor/Design View, text view doesn't wrap up text right away, only when it
+    is WAAAAY longer than it should (in fact only when its longer/can't fit in the screen width).
+    -->
+    <string name="rc_only_login_legacy_error">
+        این کد بازیابی بدون اینکه \n
+        <annotation link="goToLegacyLogin">اول ایمیلتان را وارد کنید</annotation> قابل استفاده نیست.
+    </string>
+
+    <string name="option_label_recommended">توصیه شده</string>
+    <string name="option_label_disabled">غیرفعال</string>
+
+    <string name="save_option_drive_title">ذخیره روی Drive</string>
+    <string name="save_option_drive_description">
+        از حساب گوگل خود برای ذخیره سازی و دسترسی به بسته اضطراریتان استفاده کنید.
+    </string>
+
+    <string name="save_option_feedback_title">سرویس ابری دیگری پیشنهاد کنید</string>
+    <string name="save_option_feedback_description">
+        به ما بگویید که دوست دارید از چه سرویس ابری دیگری پشتیبانی کنیم.
+    </string>
+    <string name="save_option_feedback_dialog_body">
+        قصد داریم از سرویسهای ابری بیشتری پشتیبانی کنیم. دوست دارید کدامشان را اضافه کنیم؟
+    </string>
+    <string name="save_option_feedback_dialog_action">ارسال بازخورد</string>
+    <string name="save_option_feedback_dialog_success">از اینکه بازخوردتان را فرستادید سپاسگزاریم!</string>
+
+    <string name="save_link_manual">
+        <annotation link="no_cloud">نمی خواهم از ذخیره سازی ابری استفاده کنم</annotation>
+    </string>
+
+    <string name="migration_title">در حال به روز رسانی کیف شما</string>
+
+    <string name="migration_error_message">به روز رسانی کیف شما ناموفق بود. لطفا دوباره امتحان کنید.</string>
+    <string name="migration_error_retry">تلاش مجدد</string>
+
+    <string name="title_wallet">کیف</string>
+    <string name="title_security">امنیت</string>
+    <string name="title_settings">تنظیمات</string>
+    <string name="home_balance_tap_to_reveal">برای نمایش مانده لمس کنید</string>
+    <string name="home_security_center_card_body">
+        <annotation fontColor="muunBlue">برای کیفتان پشتیبان تهیه کنید.</annotation> با تهیه پشتیبان،
+        دیگر دسترسی به کیفتان را از دست ندهید.
+    </string>
+    <string name="new_home_tx_list_tooltip">
+        به صفحه اصلی جدیدتان خوش آمدید!\nبرای دیدن تراکنشهایتان لمس کنید یا به بالا بکشید.
+    </string>
+    <string name="rbf_notice_banner">
+        فرستنده می تواند پیش از تأیید این تراکنش توسط شبکه، آن را لغو کند.
+        <annotation link="how">چگونه؟</annotation>.
+    </string>
+    <string name="rbf_notice_banner_title">چطور ممکن است این تراکنش لغو شود؟</string>
+    <string name="rbf_notice_banner_desc">
+        قابلیت RBF یا جایگزینی با کارمزد برای این تراکنش فعال است. RBF به فرستنده امکان می دهد 
+        با افزایش کارمزد اولیه، سرعت تأیید تراکنش را افزایش دهد. ولی این امکان را نیز به او می دهد که تراکنش را لغو کند.
+        مگر اینکه فرستنده را می شناسید یا به او اعتماد دارید، امکان لغو را به عنوان یک ریسک تا زمان تأیید تراکنش از سوی شبکه در نظر داشته باشید.
+    </string>
+
+    <string name="turbo_channels">توربو کاناکها</string>
+    <string name="turbo_channels_learn_more">
+        در مورد مزایا و معایب توبو کانالها
+        <annotation link="https://blog.muun.com/turbo-channels/">بیشتر بدانید</annotation>.
+    </string>
+    <string name="turbo_channels_disable_title">توربو کانالها غیرفعال شوند؟</string>
+    <string name="turbo_channels_disable_message">
+        دریافت بعضی از پرداختهای لایتنینگ خیلی بیشتر طول خواهد کشید.
+    </string>
+    <string name="turbo_channels_disable">غیرفعال کن</string>
+    <string name="settings_lightning_default_title">برای دریافتها به صورت پیش فرض از لایتنینگ استفاده شود</string>
+    <string name="settings_lightning_default_description">
+        در مون شما می توانید از طریق شبکه بیتکوین یا شبکه لایتنینگ، بیتکوین دریافت کنید.
+        \n\nبسیاری از سرویسها هنوز از لایتنینگ پشتیبانی نمی کنند. در نتیجه وقتی دکمه دریافت را لمس می کنید، کیف شما
+        به صورت پیش فرض از شبکه بیتکوین استفاده می کند و یک آدرس بیتکوین نمایش می دهد. با تغییر پیش فرض به لایتنینگ،
+        کیف شما یک صورتحساب لایتنینگ را نمایش خواهد داد و شما می بایست هرگاه
+        به آدرس بیتکوین نیاز داشتید، به صورت دستی شبکه بیتکوین را انتخاب کنید.</string>
+    <string name="settings_header_advanced">تنظیمات پیشرفته</string>
+    <string name="settings_lightning">شبکه لایتنینگ</string>
+    <string name="settings_bitcoin">شبکه بیتکوین</string>
+    <string name="dark_mode">تنظیمات ظاهر</string>
+    <string name="dark_mode_dark">حالت تاریک</string>
+    <string name="dark_mode_light">حالت روشن</string>
+    <string name="dark_mode_follow_system">مطابق با حالت سیستم</string>
+
+    <string name="address_settings">تنظیمات آدرس</string>
+    <string name="address_settings_hide">پنهان کردن تنظیمات</string>
+    <string name="edit_amount_add">اضافه +</string>
+    <string name="edit_address_type">نوع آدرس</string>
+    <string name="segwit">سگویت</string>
+    <string name="legacy">قدیمی</string>
+    <string name="taproot">تپروت</string>
+
+    <string name="invoice_settings">تنظیمات صورتحساب</string>
+    <string name="invoice_settings_hide">پنهان کردن تنظیمات</string>
+    <string name="select_amount_title">ویرایش مبلغ</string>
+    <string name="confirm_empty_amount">تأیید صورتحساب بدون مبلغ</string>
+    <string name="expiration_time">زمان انقضا</string>
+
+    <!-- LNURL -->
+
+    <string name="lnurl_intro_title">پرداختهای لایتنینگ را اسکن و دریافت کنید</string>
+    <string name="lnurl_intro_desc">
+        برای دریافت وجه بدون نیاز به اشتراک گذاری صورتحساب، از LNURL استفاده کنید. استفاده از این امکان 
+        فقط با سایر سرویس هایی که از آن پشتیبانی می کنند مقدور است.
+    </string>
+    <string name="lnurl_continue">ادامه</string>
+    <string name="scan_lnurl">LNURL</string>
+    <string name="scan_lnurl_subtitle">برای دریافت بیتکوین، یک کیو آر کد LNURL را اسکن کنید</string>
+    <string name="lnurl_withdraw_confirm_title">می خواهید با لایتنینگ دریافت کنید</string>
+    <string name="lnurl_withdraw_confirm_desc">
+        به نظر این یک کد LNURL است. بااین کد می توانید از طریق لایتنینگ بیتکوین دریافت کنید، نه ارسال. 
+        می خواهید از این استفاده کنید؟
+    </string>
+    <string name="lnurl_withdraw_confirm_back">بازگشت به ارسال</string>
+    <string name="lnurl_withdraw_confirm_continue">دریافت بیتکوین</string>
+    <string name="lnurl_withdraw_contacting">
+        در حال تماس با
+        <annotation fontStyle="bold"><annotation arg="0">placeholder</annotation></annotation>...
+    </string>
+    <string name="lnurl_withdraw_receiving">
+        در حال دریافت از
+        <annotation fontStyle="bold"><annotation arg="0">placeholder</annotation></annotation>...
+    </string>
+    <string name="lnurl_withdraw_taking_long">
+        پرداخت <annotation fontStyle="bold"><annotation arg="0">placeholder</annotation></annotation> دارد 
+        بیش از اندازه طول می کشد
+    </string>
+    <string name="lnurl_withdraw_taking_long_desc">
+        می توانید اینجا منتظر بمانید یا ترک کنید 
+        و هنگامی که پرداخت تکمیل شد اعلان دریافت کنید. اگر پرداخت تکمیل نشد، لطفا با
+        <annotation fontStyle="bold"><annotation arg="0">placeholder</annotation></annotation> تماس بگیرید.
+    </string>
+    <string name="lnurl_withdraw_uri_paster_title">استفاده از لینک LNURL در چکنویس</string>
+    <string name="error_lnurl_country_not_supported_title">از این کشور پشتیبانی نمی شود</string>
+    <string name="error_lnurl_country_not_supported_desc">
+        سرویسی که این کد را ایجاد کرده است در کشور شما قابل دسترسی نیست.
+    </string>
+    <string name="error_lnurl_already_used_title">این کد قبلا استفاده شده است</string>
+    <string name="error_lnurl_already_used_desc">
+        این کد قبلا توسط کیف دیگری استفاده شده است و نمی تواند دوباره استفاده شود.
+    </string>
+
+    <!-- TAPROOT -->
+
+    <string name="tr_setup_intro_1_title">جهشی بزرگ برای بیتکوین</string>
+    <string name="tr_setup_intro_1_desc">
+        تپروت یکی از ارتقاهای پرطرفدار بیتکوین است.
+        \n\n
+        با ایجاد امکان تراکنش های ارزانتر و کمتر قابل ردزنی، 
+        تپروت زمینه ی نوآوری های عظیمی را در بیتکوین فراهم کرده است.
+    </string>
+    <string name="tr_setup_intro_2_title">توانمند شده با کدنوشته های قوی</string>
+    <string name="tr_setup_intro_2_desc">
+        تپروت از کدنوشته های جدیدی برای ایجاد آدرسهای دریافت بیتکوین استفاده می کند.
+        \n\n
+        برای بازیابی بیتکوین در زمان اضطرار، لازم است 
+        این کدنوشته ها هم در بسته اضطراری شما نوشته شده باشند.
+    </string>
+    <string name="tr_setup_intro_3_title">کاملا امن</string>
+    <string name="tr_setup_intro_3_desc">
+        کنترل کامل خود بر بیتکوینتان را با به روز رسانی بسته اضطراری پیش از استفاده از تپروت حفظ کنید.
+        \n\n
+        بسته اضطراری به روز رسانی شده جایگزین بسته قبلی می شود ولی کد بازیابی شما تغییری نمی کند.
+    </string>
+    <string name="tr_setup_intro_action">بسته اضطراری خود را به روز رسانی کنید</string>
+    <string name="tr_setup_intro_abort_title">فعالسازی را ترک می کنید؟</string>
+    <string name="tr_setup_intro_abort_desc">
+        شما هنوز تپروت را فعال نکرده اید. می توانید این فرآیند را بعدا دوباره شروع کنید.
+    </string>
+
+    <string name="tr_setup_update_kit_title">بسته اضطراری خود را به روز رسانی کنید</string>
+    <string name="tr_setup_update_kit_desc">
+        سرویس ابری مورد نظرتان را انتخاب کنید تا مطمئن شوید بسته اضطراری شما هیچوقت گم نمی شود.
+    </string>
+
+    <string name="tr_celebration_user_native_title">تپروت راه افتاد!</string>
+    <string name="tr_celebration_desc">
+        حالا می توانید با استفاده از آدرسهای تپروت پرداخت و دریافت کنید. 
+        پرداختهای شما ارزانتر و کمتر قابل ردزنی خواهند بود.
+    </string>
+    <string name="tr_celebration_action">
+        عالی
+    </string>
+
+    <string name="tr_setting_title">استفاده از آدرسهای تپروت به عنوان پیش فرض</string>
+    <string name="tr_setting_desc">
+        تپروت یک نوع آدرس جدید است که پرداختهای شما را ارزانتر و کمتر قابل ردزنی می کند.
+        \n
+        \nبسیاری از سرویسها هنوز با تپروت سازگار نیستند و ممکن است آدرسهای شما را نامعتبر بدانند. 
+        اگر تپروت را به عنوان پیش فرض انتخاب می کنید، می بایست هنگامی که چنین اتفاقی رخ داد، 
+        نوع آدرس را به صورت دستی به سگویت یا آدرس های قدیمی تغییر دهید.
+    </string>
+    <string name="tr_setting_timer">ظرف ~<annotation arg="0">3</annotation> ساعت فعال می شود</string>
+    <string name="tr_setting_confirm_title">از تپروت به عنوان پیش فرض استفاده شود؟</string>
+    <string name="tr_setting_confirm_desc">
+        بعضی سرویسها ممکن است آدرسهای شما را نامعتبر بدانند.
+    </string>
+    <string name="tr_setting_confirm">تأیید</string>
+
+    <string name="address_picker_title">نوع آدرستان را انتخاب کنید</string>
+    <string name="address_picker_legacy_title">قدیمی</string>
+    <string name="address_picker_legacy_desc">
+        این نوع آدرس پذیرش گسترده تری نسبت به سایر آدرسها دارد. 
+        فقط هنگامی از این نوع آدرس استفاده کنید که سرویسی آدرسهای سگویت شما را نامعتبر اعلام می کند.
+    </string>
+    <string name="address_picker_segwit_title">سگویت</string>
+    <string name="address_picker_segwit_desc">
+        این یک نوع آدرس نسبتا جدید است که در حال حاضر مورد پذیرش گسترده قرار گرفته است. 
+        این نوع آدرس تراکنشهای سبکتری ایجاد کرده و هزینه کارمزدهای آتی شبکه را برایتان کاهش می دهد.
+    </string>
+    <string name="address_picker_taproot_title">تپروت</string>
+    <string name="address_picker_taproot_desc_before_activation">
+        <annotation fontColor="muunBlack"><annotation fontStyle="bold">ظرف
+        ~<annotation arg="0">x</annotation> ساعت</annotation></annotation> فعال می شود. این جدیدترین و قویترین نوع آدرس است. سرویسهای زیادی هنوز با این آدرس سازگار نیستند 
+        و ممکن است آن را نامعتبر اعلام کنند.
+    </string>
+    <string name="address_picker_taproot_desc_after_activation">
+        این جدیدترین و قویترین نوع آدرس است. سرویسهای زیادی هنوز با این آدرس سازگار نیستند 
+        و ممکن است آن را نامعتبر اعلام کنند.
+    </string>
+    <string name="taproot_card_body">
+        <annotation fontColor="muunBlue"><annotation fontStyle="bold">پرداختهایتان را ارتقا دهید
+        </annotation></annotation>. با فعال کردن تپروت در هزینه های پرداختتان صرفه جویی کنید.
+    </string>
+    <string name="taproot_success_title">
+        شما برای استفاده از تپروت آماده اید!
+    </string>
+    <string name="taproot_success_preactivated_desc">
+        <annotation role="p">
+            ظرف <annotation arg="0">123</annotation> بلاک (~<annotation arg="1">4</annotation>
+            ساعت)، شبکه بیتکوین تپروت را به صورت جهانی فعال می کند.
+        </annotation>
+
+        <annotation role="p">
+            وقتی این اتفاق بیافتد، شما خواهید توانست در آدرس های تپروت بیتکوین دریافت کنید.
+        </annotation>
+    </string>
+    <string name="taproot_success_active_desc">
+        حالا می توانید با آدرس های تپروت پرداخت و دریافت کنید. 
+        پرداختهای شما ارزانتر و کمتر قابل ردزنی خواهند بود.
+    </string>
+    <string name="taproot_success_action">عالی</string>
+
+    <string name="tr_clock_detail_title">این شمارش معکوس نهایی است!</string>
+    <string name="tr_clock_detail_desc">
+        <annotation role="p">
+            وقتی شبکه بیتکوین بلاک شماره 709,632 را استخراج کند، تپروت به صورت جهانی فعال خواهد شد.
+        </annotation>
+
+        <annotation role="p">
+            برای محافظت از شما در مقابل بازچینش احتمالی بلاکچین، 
+            از 6 بلاک دیگر می توانید از آدرس های تپروت استفاده کنید.
+        </annotation>
+
+        <annotation role="p">
+            <annotation arg="0">210</annotation> بلاک باقی مانده است!
+        </annotation>
+    </string>
+
+    <string name="notification_tr_preactivate_title">پرداختهایتان را ارتقا دهید</string>
+    <string name="notification_tr_preactivate_desc">
+        با فعال کردن تپروت در هزینه های پرداختتان صرفه جویی کنید.
+    </string>
+
+    <string name="notification_tr_activated_title">تپروت راه افتاد 🎉</string>
+    <string name="notification_tr_activated_desc">
+        شبکه بیتکوین تپروت را فعال کرد. حالا می توانید از پرداختهای ارزانتر لذت ببرید.
+    </string>
+
+    <!-- RC SETUP INTERRUPTED - UNVERIFIED RCs -->
+
+    <string name="rc_setup_start_connection_error_title">ایجاد پشتیبان ناموفق بود</string>
+    <string name="rc_setup_start_connection_error_desc">
+        شما در حال ایجاد یک پشتیبان رمزنگاری شده از کلیدهای خصوصیتان هستید. 
+        برای ذخیره این پشتیبان، لازم است به اینترنت وصل باشید.
+        \n\n
+        لطفا اتصالتان به اینترنت را بررسی کنید و دوباره امتحان کنید.
+    </string>
+
+    <string name="rc_setup_finish_connection_error_title">ایجاد پشتیبان ناموفق بود</string>
+    <string name="rc_setup_finish_connection_error_desc">
+        برای تهیه یک پشتیبان رمزنگاری شده از کلیدهای خصوصیتان، از کد بازیابی استفاده می شود.
+        برای ذخیره این پشتیبان لازم است به اینترنت وصل باشید.
+        \n\n
+        لطفا اتصالتان به اینترنت را بررسی کنید و دوباره امتحان کنید.
+    </string>
+
+    <string name="rc_unverified_warning_title">هشدار</string>
+    <string name="rc_unverified_warning_desc">
+        شما هنوز راه اندازی کد بازیابی ای که همین الان برای بازیابی کیفتان استفاده کردید را کامل نکرده اید.
+        \n\n
+        لطفا به مرکز امنیت بروید و برای کیفتان با یک کد بازیابی جدید پشتیبان تهیه کنید. 
+        مطمئن شوید که این بار راه اندازی را کامل انجام می دهید.
+        \n\n
+        به محض ایجاد کد بازیابی جدید، کد کنونی نامعتبر خواهد شد.
+    </string>
+    <string name="rc_unverified_warning_button">فهمیدم!</string>
+
+    <string name="rc_error_stale_rc_title">کد بازیابی نامعتبر است</string>
+    <string name="rc_error_stale_rc_desc">
+        شما راه اندازی این کد بازیابی را کامل نکرده اید. می بایست یک کد جدیدتر داشته باشید.
+        لطفا پیدایش کنید و دوباره امتحان کنید.
+    </string>
+
+    <string name="rc_error_credentials_dont_match_title">
+        اطلاعات هویتی شما (ایمیل و کد بازیابی) به هم مرتبط نیستند.
+    </string>
+    <string name="rc_error_credentials_dont_match_desc">
+        لطفا مطمئن شوید که از کد بازیابی ای که با این این ایمیل این کیف را برمی گرداند استفاده می کنید. 
+        <annotation fontStyle="bold"><annotation arg="0">placeholder</annotation></annotation>.
+    </string>
+
+</resources>
