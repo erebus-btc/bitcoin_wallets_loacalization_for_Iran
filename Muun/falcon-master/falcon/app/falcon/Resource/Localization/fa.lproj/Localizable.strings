@@ -1,0 +1,843 @@
+/* Extension/UIBarButtonItem+Extension.swift */
+"UIBarButtonItem.s1" = "%@ از %@"; /* variables should switch places, since farsi reads from right to left */
+/* Presentation/Component/ActionCard/ActionCardView.swift */
+"ActionCardView.s1" = "رد شده";
+/* Presentation/Component/CameraPermission/CameraPermissionView.swift */
+"CameraPermissionView.s1" = "دروبین را فعال کن";
+/* Presentation/Component/NewOpError/ErrorView.swift */
+"ErrorView.goToHome" = "به صفحه اصلی برو";
+"ErrorView.retry" = "تلاش مجدد";
+"ErrorView.sendReport" = "ارسال گزارش";
+/* Presentation/Component/PopUp/WelcomePopUpView.swift */
+"WelcomePopUpView.message" = "شما کیف جدیدی ایجاد کردید.
+به مون خوش آمدید!";
+"WelcomePopUpView.button" = "بزن بریم";
+/* Presentation/Component/Receive/NotificationsPrimingView.swift */
+"NotificationsPrimingView.s1" = "از هیچ پرداختی بی خبر نمانید";
+"NotificationsPrimingView.s2" = "لطفا برای اطلاع از دریافت بیتکوین، اعلانها را فعال کنید.";
+"NotificationsPrimingView.s3" = "اعلانها را فعال کن";
+"NotificationsPrimingView.s4" = "رد کن";
+"NotificationsPrimingView.s5" = "لطفا اعلانها را فعال کنید.";
+"NotificationsPrimingView.s6" = "برای پرداختهای لایتنینگ، لازم است اعلانها را فعال کنید.";
+/* Presentation/Component/Receive/ReceiveInLightningView.swift */
+"ReceiveInLightningView.s1" = "این صورتحساب در %@ منقضی می شود. یکی دیگر ایجاد کنید";
+"ReceiveInLightningView.s2" = "یکی دیگر ایجاد کنید";
+"ReceiveInLightningView.s5" = "این صورتحساب پیش از پرداخت منقضی شده است. لطفا یکی دیگر ایجاد یا درخواست کنید.";
+"ReceiveInLightningView.s6" = "ایجاد صورتحساب";
+"ReceiveInLightningView.loading" = "در حال ایجاد صورتحساب";
+/* Presentation/Component/Receive/ReceiveOnChainView.swift */
+"ReceiveOnChainView.s1" = "آدرس قدیمی بیتکوین";
+"ReceiveOnChainView.s4" = "تغییر به آدرسهای قدیمی بیتکوین";
+"ReceiveOnChainView.s5" = "تغییر به آدرسهای سگویت";
+"ReceiveOnChainView.s6" = "هنگام استفاده از این آدرس به مشکلی برخوردید؟
+از آدرسهای قدیمی استفاده کنید";
+/* Presentation/Component/Receive/QRCodeWithActionsView.swift */
+"QRCodeWithActionsView.share" = "اشتراک گذاری";
+"QRCodeWithActionsView.copy" = "نسخه برداری";
+/* Presentation/OperationFormatter.swift */
+"OperationFormatter.s1" = "به خودتان پرداخت کردید";
+"OperationFormatter.s2" = "دریافت کردید";
+"OperationFormatter.s3" = "پرداخت کردید";
+"OperationFormatter.s4" = "در حال تأیید";
+"OperationFormatter.s5" = "ناموفق";
+"OperationFormatter.s6" = "پرداخت کردید";
+"OperationFormatter.s9" = "تأیید شده";
+"OperationFormatter.s10" = "%@ به شما پرداخت کرد"; 
+"OperationFormatter.cancelable" = "قابل لغو";
+/* Presentation/Screen/Base/BasePresenter.swift */
+"BasePresenter.s1" = "لطفا دوباره امتحان کنید";
+"BasePresenter.s2" = "خطایی رخ داده است";
+"BasePresenter.s3" = "نمی توانیم به سرور مون وصل شویم";
+"BasePresenter.s6" = "محیط ذخیره سازی امن موبایل شما خراب شده یا در آن نفوذ شده است. مون برای حفظ امنیت خارج شده است. لطفا برای دریافت کمک با support@muun.com تماس بگیرید.";
+/* Presentation/Screen/Detail/DetailPresenter.swift */
+"DetailPresenter.s1" = "%@ ساعت";
+"DetailPresenter.s2" = "(%@ بلاک)";
+/* Presentation/Screen/Detail/DetailRowView.swift */
+"DetailRowView.s1" = "در چکنویس نسخه برداری شد";
+/* Presentation/Screen/Detail/DetailViewController.swift */
+"DetailViewController.s1" = "پرداخت ناموفق بود. بیتکوینتان به شما بازگردانده شد.";
+"DetailViewController.s2" = "جزئیات پرداخت";
+"DetailViewController.s3" = "شناسه تراکنش";
+"DetailViewController.s4" = "شرح";
+"DetailViewController.s5" = "زمان";
+"DetailViewController.s6" = "مبلغ";
+"DetailViewController.s7" = "تعداد تأییدها";
+"DetailViewController.s8" = "کارمزد شبکه";
+"DetailViewController.s9" = "ارسال شده به آدرس";
+"DetailViewController.s10" = "دریافت شده در آدرس";
+"DetailViewController.s11" = "لینک نسخه برداری شد.";
+"DetailViewController.s13" = "صورتحساب لایتنینگ";
+"DetailViewController.s14" = "گره دریافت کننده";
+"DetailViewController.preimage" = "پیش تصویر پرداخت"; 
+"DetailViewController.s16" = "در انتظار تأیید پرداخت از سوی دریافت کننده.";
+"DetailViewController.s19" = "این پرداخت منتظر یک تأیید روی شبکه بیتکوین است.";
+"DetailViewController.s20" = "چرا؟";
+"DetailViewController.s22" = "مسیری برای این پرداخت وجود نداشت. بیتکوینتان حدودا ظرف مدت %@ %@ به شما بازگردانده خواهد شد.";
+"DetailViewController.outgoingTxFee" = "کارمزد پرداخت شده به استخراجگران";
+"DetailViewController.rbfNotice" = "فرستنده می تواند پیش از تأیید این تراکنش توسط شبکه، آن را لغو کند. چگونه؟";
+"DetailViewController.rbfCta" = "چگونه؟";
+"DetailViewController.rbfInfoTitle" = "چطور ممکن است این تراکنش لغو شود؟";
+"DetailViewController.rbfInfoDesc" = "قابلیت RBF یا جایگزینی با کارمزد برای این تراکنش فعال است. RBF به فرستنده امکان می دهد با افزایش کارمزد اولیه، سرعت تأیید تراکنش را افزایش دهد. ولی این امکان را نیز به او می دهد که تراکنش را لغو کند.
+
+مگر اینکه فرستنده را می شناسید یا به او اعتماد دارید، امکان لغو را به عنوان یک ریسک تا زمان تأیید تراکنش از سوی شبکه در نظر داشته باشید.";
+"DetailViewController.paymentHash" = "هش پرداخت";
+/* Presentation/Screen/GetStarted/GetStartedViewController.swift */
+"GetStartedViewController.s1" = "کیف غیر حضانتی
+برای بیتکوین و لایتنینگ.";
+"GetStartedViewController.s5" = "ایجاد یک کیف جدید";
+"GetStartedViewController.s6" = "بازیابی کیف موجود";
+/* Presentation/Screen/Home/Cell/Operation/OperationTableViewCell.swift */
+"OperationTableViewCell.s1" = "از شبکه بیتکوین";
+"OperationTableViewCell.s2" = "از شبکه لایتنینگ";
+/* Presentation/Screen/Home/Help/SupportViewController.swift */
+"SupportViewController.s1" = "لطفا این کد پشتیبانی را ذکر کنید";
+"SupportViewController.s2" = "انتخاب ایمیل";
+"SupportViewController.s3" = "لغو";
+"SupportViewController.s4" = "کد پشتیبانی در چکنویس نسخه برداری شد";
+"SupportViewController.s5" = "بیایید با هم مون را از این هم بهتر کنیم";
+"SupportViewController.s6" = "گزارش مشکل";
+"SupportViewController.s7" = "کمک و بازخورد";
+"SupportViewController.s8" = "نظرات و ایده هایتان را به اشتراک گذارید. بازخوردتان برایمان مهم است.";
+"SupportViewController.s9" = "لطفا مشکلتان را با جزئیات شرح دهید. به محض اینکه بتوانیم با شما تماس خواهیم گرفت.";
+"SupportViewController.s10" = "اگر ایده، نظر یا مشکلی دارید، برایمان به آدرس support@muun.com ارسال کنید.";
+"SupportViewController.s11" = "نظرات شما";
+"SupportViewController.s12" = "شرح مشکل";
+"SupportViewController.s13" = "ارسال بازخورد";
+"SupportViewController.s14" = "گزارش مشکل";
+"SupportViewController.s15" = "برنامه ایمیل را باز کن";
+/* Presentation/Screen/Home/Home+ActionCard.swift */
+"Home.boldBackUp" = "برای کیفتان پشتیبان تهیه کنید";
+"Home.backUp" = "برای کیفتان پشتیبان تهیه کنید. با تهیه پشتیبان دیگر دسترسی به کیفتان را از دست ندهید.";
+"Home.receiveCTA" = "دریافت";
+"Home.sendCTA" = "پرداخت";
+"Home.transactionListTooltip" = "به صفحه اصلی جدیدتان خوش آمدید!
+برای دیدن تراکنشهایتان لمس کنید یا به بالا بکشید.";
+
+"Home.activateTaproot" = "پرداختهایتان را ارتقا دهید. با فعال کردن تپروت در هزینه های پرداختتان صرفه جویی کنید.";
+"Home.activateTaprootHighlight" = "پرداختهایتان را ارتقا دهید.";
+
+/* Presentation/Screen/Home/HomeViewController.swift */
+"HomeViewController.s1" = "گزارش مشکل";
+"HomeViewController.s2" = "ارسال بازخورد";
+"HomeViewController.s3" = "لغو";
+/* Presentation/Screen/BalanceView.swift */
+"BalanceView.hiddenBalance" = "﹡﹡﹡";
+"BalanceView.tapToRevealBalance" = "برای نمایش مانده لمس کنید";
+/* Presentation/Screen/NewOperation/ChildViews/Amount/NewOpAmountView.swift */
+"NewOpAmountView.s1" = "تأیید مبلغ";
+"NewOpAmountView.s2" = "مانده: %@ %@";
+"NewOpAmountView.s3" = "استفاده از تمام موجودی";
+"NewOpAmountView.s4" = "موجودی کافی نیست";
+"NewOpAmountView.s5" = "مبلغ بیش از اندازه کم است";
+/* Presentation/Screen/NewOperation/ChildViews/Confirm/NewOpConfirmView.swift */
+"NewOpConfirmView.s1" = "ارسال";
+/* Presentation/Screen/NewOperation/ChildViews/Description/NewOpDescriptionView.swift */
+"NewOpDescriptionView.s1" = "تأیید یادداشت";
+"NewOpDescriptionView.s2" = "نگارش یادداشت";
+/* Presentation/Screen/NewOperation/ChildViews/EditFee/FeeEditorPresenter.swift */
+"FeeEditorPresenter.s1" = "15 روز";
+/* Presentation/Screen/NewOperation/NewOpError.swift */
+"NewOpError.s2" = "این یک آدرس بیتکوین نیست";
+"NewOpError.s3" = "این صورتحساب منقضی شده است";
+"NewOpError.s4" = "نرخ بیتکوین تغییر کرده است";
+"NewOpError.s5" = "صورتحساب قابل پرداخت نیست";
+"NewOpError.s6" = "این پرداخت به زمان انقضای بیشتری نیاز دارد";
+"NewOpError.s7" = "این صورتحساب قبلا استفاده شده است";
+"NewOpError.s8" = "مسیری وجود ندارد";
+"NewOpError.s9" = "موجودی شما کافی نیست";
+"NewOpError.s10" = "این پرداخت بیش از اندازه کوچک است";
+"NewOpError.s11" = "این صورتحساب فاقد مبلغ است";
+"NewOpError.s12" = "خطایی غیرمنتظره رخ داده است";
+"NewOpError.s13" = "این صورتحساب قابل پرداخت نیست";
+"NewOpError.s15" = "این صورتحساب پیش از پرداخت منقضی شده است. لطفا یکی دیگر ایجاد یا درخواست کنید.";
+"NewOpError.s16" = "لطفا با صورتحسابی دیگر امتحان کنید";
+"NewOpError.s17" = "تیم پشتیبانی";
+"NewOpError.s18" = "شما موجودی کافی برای انجام این پرداخت و پرداخت کارمزد شبکه ندارید.";
+"NewOpError.s19" = "فعلا فقط می توانید به صورتحسابهایی پرداخت کنید که شامل مبلغ نیز می شوند. لطفا یکی دیگر ایجاد یا درخواست کنید.";
+"NewOpError.s21" = "نمی توانید صورتحسابی به خودتان پرداخت کنید.";
+"NewOpError.s22" = "نوشته اسکن شده";
+"NewOpError.s23" = "جمع (مبلغ + حداقل کارمزد)";
+"NewOpError.s24" = "مانده شما";
+"NewOpError.s25" = "این یک آدرس بیتکوین یا صورتحساب لایتنینگ نیست. منبع دریافت آن را بازبینی کنید و مطمئن شوید که آدرس به درستی پیکربندی شده است.";
+"NewOpError.s26" = "پرداخت شما به علت تغییر نرخ بیتکوین انجام نشد. لطفا پرداخت جدیدی را شروع کنید.";
+"NewOpError.s27" = "لطفا صورتحساب جدیدی با زمان انقضای بیش از یک ساعت درخواست کنید یا از صورتحسابی با مبلغ کمتر استفاده کنید.";
+"NewOpError.s28" = "این صورتحساب قبلا توسط کیف دیگری اسکن یا پرداخت شده است. لطفا صورتحساب جدیدی ایجاد یا درخواست کنید.";
+"NewOpError.s29" = "مسیری با ظرفیت کافی برای این پرداخت وجود ندارد. لطفا با تیم پشتیبانی ما تماس بگیرید و اطلاع دهید. خوشحال می شویم کمک کنیم.";
+"NewOpError.s30" = "مبلغی که می خواهید ارسال کنید بیش از اندازه کم است. مبلغ می بایست بیشتر از %@ ساتوشی باشد.";
+"NewOpError.s31" = "مشکلی پیش آمده ولی نمی دانیم چیست. لطفا با تیم پشتیبانی ما تماس بگیرید و اطلاع دهید. خوشحال می شویم کمک کنیم.";
+"NewOpError.s32" = "این صورتحساب را یک گره خصوصی ایجاد کرده است که قابل دسترسی نیست. برای دسترسی، لازم است که صورتحساب حاوی اطلاعات اضافی (RoutHints) باشد. این مشکل فقط از طرف ایجادکننده صورتحساب قابل حل است.";
+/* Presentation/Screen/NewOperation/ChildViews/EditFee/ManuallyEnterFee/ManuallyEnterFeeViewController.swift */
+"ManuallyEnterFeeViewController.s1" = "ویرایش کارمزد شبکه";
+"ManuallyEnterFeeViewController.s2" = "ورود دستی کارمزد. این چیست؟";
+"ManuallyEnterFeeViewController.s3" = "این چیست؟";
+"ManuallyEnterFeeViewController.s4" = "sat/vbyte";
+"ManuallyEnterFeeViewController.s5" = "تأیید کارمزد";
+"ManuallyEnterFeeViewController.s6" = "استفاده از حداکثر کارمزد";
+"ManuallyEnterFeeViewController.s7" = "کمتر از %@";
+"ManuallyEnterFeeViewController.s8" = "کارمزد بیش از اندازه کم است. کارمزدی حداقل معادل %@ sat/vbyte وارد کنید.";
+"ManuallyEnterFeeViewController.s9" = "کارمزد بیش از اندازه زیاد است. کارمزدی کمتر از %@ sat/vbyte وارد کنید.";
+"ManuallyEnterFeeViewController.s10" = "موجودی کافی نیست. حداکثر می توانید %@ sat/vbyte پرداخت کنید.";
+"ManuallyEnterFeeViewController.s11" = "موجودی کافی نیست.";
+"ManuallyEnterFeeViewController.s12" = "کارمزد خیلی کم است. ممکن است تأیید این تراکنش چند روز طول بکشد.";
+"ManuallyEnterFeeViewController.s13" = "کارمزد خیلی کم است. ترافیک شبکه بیتکوین به طرز غیرمعمولی بالاست و تراکنش هایی با کارمزد کمتر از  %@ sat/vbyte را پردازش نمی کند.";
+/* Presentation/Screen/NewOperation/ChildViews/EditFee/SelectFee/Cell/EnterFeeManuallyTableViewCell.swift */
+"EnterFeeManuallyTableViewCell.s1" = "کارمزد دستی";
+"EnterFeeManuallyTableViewCell.s2" = "ورود دستی کارمزد";
+/* Presentation/Screen/NewOperation/ChildViews/EditFee/SelectFee/Cell/TargetedFeeTableViewCell.swift */
+"TargetedFeeTableViewCell.s1" = "کمتر از %@";
+/* Presentation/Screen/NewOperation/ChildViews/EditFee/SelectFee/Cell/TitleTableViewCell.swift */
+"TitleTableViewCell.s1" = "این چیست؟";
+/* Presentation/Screen/NewOperation/ChildViews/EditFee/SelectFee/SelectFeeViewController.swift */
+"SelectFeeViewController.s1" = "ویرایش کارمزد شبکه";
+"SelectFeeViewController.s2" = "تأیید کارمزد";
+"SelectFeeViewController.s3" = "توجه:";
+"SelectFeeViewController.s4" = "یک زمان تأیید انتخاب کنید. این چیست؟";
+"SelectFeeViewController.s5" = "توجه: به علت استفاده از تمام موجودی، کارمزد از مبلغ کل پرداختتان کم می شود.";
+/* Presentation/Screen/NewOperation/ChildViews/FilledData/NewOpAmountFilledDataView.swift */
+"NewOpAmountFilledDataView.s1" = "مبلغ";
+"NewOpAmountFilledDataView.s2" = "کارمزد شبکه";
+"NewOpAmountFilledDataView.s3" = "جمع";
+/* Presentation/Screen/NewOperation/ChildViews/FilledData/NewOpDescriptionFilledDataView.swift */
+"NewOpDescriptionFilledDataView.s1" = "یادداشت";
+/* Presentation/Screen/NewOperation/ChildViews/FilledData/NewOpDestinationFilledDataView.swift */
+"NewOpDestinationFilledDataView.s1" = "به";
+/* Presentation/Screen/NewOperation/ChildViews/Loading/NewOpLoadingView.swift */
+"NewOpLoadingView.s1" = "در حال بارگذاری جزئیات پرداخت";
+/* Presentation/Screen/NewOperation/NewOp+MoreInfo.swift */
+"NewOp.s1" = "آدرس کامل";
+"NewOp.s2" = "جزئیات گره دریافت کننده";
+"NewOp.s3" = "در کاوشگر گره باز کن";
+"NewOp.s4" = "نیازمند تأیید";
+"NewOp.s5" = "کارمزد شبکه و زمانهای تأیید";
+"NewOp.s6" = "کارمزد دستی و زمانهای تأیید";
+"NewOp.s7" = "این پرداخت لایتنینگ با یک تراکنش روی شبکه بیتکوین همراه خواهد بود.
+برای انجام پرداخت، تراکنش می بایست تأیید شود.";
+"NewOp.s8" = "مون کارمزدی را که برای تأیید تراکنشتان ظرف مدت کمتر از 30 دقیقه لازم است محاسبه و پیشنهاد می کند.
+
+کارمزد بیشتر، باعث اولویت بخشی به تراکنشتان خواهد شد و کارمزد کمتر ممکن است باعث شود تأیید تراکنشتان ساعتها طول بکشد.
+
+کارمزد بهینه هنگامی که فعالیت شبکه بیشتر است افزایش می یابد. اگر هنگامی که هنوز تراکنشتان تأیید نشده است کارمزدها افزایش پیدا کنند، ممکن است تأیید بیشتر طول بکشد.";
+"NewOp.s9" = "ساتوشی بر بایت مجازی (sat/vbyte) واحدی برای سنجش اولویت تراکنش است.
+
+کارمزد بیشتر، باعث اولویت بخشی به تراکنشتان خواهد شد و کارمزد کمتر ممکن است باعث شود تأیید پرداخت ساعتها طول بکشد.
+
+کارمزد بهینه هنگامی که فعالیت شبکه بیشتر است افزایش می یابد. اگر هنگامی که هنوز پرداختتان تأیید نشده است کارمزدها افزایش پیدا کنند، ممکن است تأیید بیشتر طول بکشد.";
+"NewOp.s10" = "چرا انجام این پرداخت بیشتر طول خواهد کشید؟";
+"NewOp.s11" = "این پرداخت لایتنینگ نیازمند یک تراکنش تأیید شده روی شبکه بیتکوین است. هر تأیید به طور میانگین 10 دقیقه طول می کشد.";
+/* Presentation/Screen/NewOperation/NewOperationView.swift */
+"NewOperationView.s1" = "این صورتحساب در %@ منقضی می شود";
+"NewOperationView.s2" = "این پرداخت بیشتر از زمان معمول پرداختهای لایتنینگ طول خواهد کشید. چرا؟";
+"NewOperationView.s3" = "چرا؟";
+/* Presentation/Screen/NewOperation/NewOperationViewController.swift */
+"NewOperationViewController.s1" = "ارسال بیتکوین";
+"NewOperationViewController.s2" = "پرداخت از طریق لایتنینگ";
+"NewOperationViewController.s3" = "پیش از تکمیل خارج می شوید؟";
+"NewOperationViewController.s4" = "شما در حال خروج از این پرداخت و بازگشت به صفحه اصلی هستید.";
+"NewOperationViewController.s5" = "ادامه";
+"NewOperationViewController.s6" = "بله، خروج";
+/* Presentation/Screen/NewOperation/ScanQR/EnterManually/ManuallyEnterQRViewController.swift */
+"ManuallyEnterQRViewController.s1" = "آدرس متنی یا صورتحساب";
+"ManuallyEnterQRViewController.s2" = "ادامه";
+"ManuallyEnterQRViewController.s3" = "چسپاندن از چکنویس";
+"ManuallyEnterQRViewController.s4" = "ارسال بیتکوین";
+"ManuallyEnterQRViewController.s5" = "این یک آدرس یا صورتحساب نیست";
+"ManuallyEnterQRViewController.s6" = "به کیف مون خودتان بیتکوین واریز خواهید کرد";
+"ManuallyEnterQRViewController.s7" = "چکنویس شما خالی است";
+"ManuallyEnterQRViewController.s8" = "خطایی رخ داده است. دوباره نسخه برداری کنید و بچسپانید.";
+/* Presentation/Screen/NewOperation/ScanQR/ScanQRViewController.swift */
+"ScanQRViewController.s1" = "ورود آدرس متنی";
+"ScanQRViewController.s2" = "ارسال به آدرس موجود در چکنویس";
+"ScanQRViewController.s3" = "ارسال بیتکوین";
+"ScanQRViewController.s4" = "اسکن کیو آر کد بیتکوین یا لایتنینگ";
+"ScanQRViewController.s5" = "دوربین را برای اسکن کیو آر کد حاوی آدرس یا صورتحساب فعال کنید";
+"ScanQRViewController.s6" = "اسکن کیو آر کد
+بیتکوین یا لایتنینگ";
+"ScanQRViewController.s7" = "استفاده از لینک LNURL در چکنویس";
+/* Presentation/Screen/NewOperation/SubmarineSwaps/OpSubmarineSwapViewBuilder.swift */
+"OpSubmarineSwapViewBuilder.s1" = "کلید عمومی";
+"OpSubmarineSwapViewBuilder.s2" = "آدرس آی پی";
+/* Presentation/Screen/NewOperation/ToAddress/OpToAddressViewBuilder.swift */
+"OpToAddressViewBuilder.s1" = "توجه:";
+"OpToAddressViewBuilder.s2" = "توجه: موجودی برای پرداخت کارمزد بهینه شبکه کافی نیست. یک کارمزد شبکه را برای ادامه انتخاب کنید.";
+"OpToAddressViewBuilder.s4" = "توجه: به علت استفاده از تمام موجودی، کارمزد از مبلغ کل پرداختتان کم می شود.";
+/* Presentation/Screen/Pin/PinPresenter.swift */
+"PinPresenter.s1" = "رمز شخصی خود را ایجاد کنید";
+"PinPresenter.s2" = "رمز شخصی خود را تأیید کنید";
+"PinPresenter.s3" = "رمزشخصی خود را وارد کنید";
+"PinPresenter.s4" = "کیفتان را امن نگه دارید";
+"PinPresenter.s5" = "برای تأیید، دوباره وارد کنید";
+/* Presentation/Screen/Pin/PinViewController.swift */
+"PinViewController.s1" = "از صورتتان برای باز کردن قفل مون استفاده کنید";
+"PinViewController.s2" = "از اثر انگشتتان برای بازکردن قفل مون استفاده کنید";
+"PinViewController.s3" = "مون را باز کن";
+"PinViewController.s4" = "رمز شخصی اشتباه است.";
+"PinViewController.s5" = "رمز شخصی اشتباه است. بعد از %@ بار تلاش ناموفق دیگر، از کیفتان خارج خواهید شد.";
+"PinViewController.s6" = "رمز شخصی مطابقت ندارد";
+/* Presentation/Screen/Receive/Receive+MoreInfo.swift */
+"Receive.s1" = "آدرس بیتکوین شما";
+"Receive.s2" = "صورتحساب شبکه لایتنینگ شما";
+"Receive.s3" = "آدرسهای سگویت و قدیمی";
+"Receive.s4" = "آدرسهای سگویت و قدیمی دو نوع متفاوت از آدرسهای بیتکوین هستند.
+
+آدرسهای قدیمی پذیرش گسترده تری دارند ولی تراکنش های طولانی تری ایجاد می کنند. استفاده از آنها منجر به پرداخت کارمزدهای بیشتر در تراکنش های آینده خواهد شد.
+
+برای صرفه جویی در هزینه کارمزد تراکنش ها، مون به صورت پیش فرض از آدرسهای سگویت استفاده می کند. بعضی سرویسها هنوز به سگویت ارتقا پیدا نکرده اند. اگر در استفاده از آدرس سگویت مشکلی دارید، به جایش یک آدرس قدیمی را امتحان کنید.";
+/* Presentation/Screen/Receive/ReceivePresenter.swift */
+"ReceivePresenter.s1" = "%@ دریافت شد";
+/* Presentation/Screen/Receive/ReceiveViewController.swift */
+"ReceiveViewController.s1" = "بیتکوین";
+"ReceiveViewController.s2" = "لایتنینگ";
+"ReceiveViewController.s3" = "دریافت";
+"ReceiveViewController.s4" = "روی چکنویس نسخه برداری شد";
+"ReceiveViewController.s5" = "روی چکنویس نسخه برداری شد. این صورتحساب در %@ منقضی می شود.";
+/* Presentation/Screen/Receive/AddressTypeSelectViewController.swift */
+"AddressTypeSelectViewController.title" = "نوع آدرستان را انتخاب کنید";
+/* Presentation/Component/Receive/OnChain/OnChainAdvancedOptionsView.swift */
+"OnChainAdvancedOptionsView.header" = "تنظیمات آدرس";
+"OnChainAdvancedOptionsView.hide" = "پنهان کردن تنظیمات";
+/* Presentation/Component/Receive/OnChain/AddressTypeOptionView.swift */
+"AddressTypeOptionView.label" = "نوع آدرس";
+"AddressTypeOptionView.segwit" = "سگویت";
+"AddressTypeOptionView.legacy" = "قدیمی";
+"AddressTypeOptionView.taproot" = "تپروت";
+"AddressTypeOptionView.segwitDescription" = "این یک نوع آدرس نسبتا جدید است که در حال حاضر مورد پذیرش گسترده قرار گرفته است. این نوع آدرس تراکنشهای سبکتری ایجاد کرده و هزینه کارمزدهای آتی شبکه را برایتان کاهش می دهد.";
+"AddressTypeOptionView.legacyDescription" = "این نوع آدرس پذیرش گسترده تری نسبت به سایر آدرسها دارد. فقط هنگامی از این نوع آدرس استفاده کنید که سرویسی آدرسهای سگویت شما را نامعتبر اعلام می کند.";
+"AddressTypeOptionView.taprootDescription" = "این جدیدترین و قویترین نوع آدرس است. سرویسهای زیادی هنوز با این آدرس سازگار نیستند و ممکن است آن را نامعتبر اعلام کنند.";
+"AddressTypeOptionView.taprootActivation" = "ظرف ~%@ ساعت فعال می شود.";
+/* Presentation/Component/Receive/Lightning/LightningAdvancedOptionsView.swift */
+"LightningAdvancedOptionsView.header" = "تنظیمات صورتحساب";
+"LightningAdvancedOptionsView.hide" = "پنهان کردن تنظیمات";
+/* Presentation/Component/Receive/Lightning/ExpirationTimeOptionView.swift */
+"ExpirationTimeOptionView.label" = "زمان انقضا";
+/* Presentation/Component/Receive/AmountOptionView.swift */
+"AmountOptionView.label" = "مبلغ";
+"AmountOptionView.addButton" = "اضافه +";
+/* Presentation/Screen/Receive/ReceiveAmountInputViewController.swift */
+"ReceiveAmountInputViewController.titleLightning" = "ویرایش مبلغ صورتحساب";
+"ReceiveAmountInputViewController.titleOnChain" = "ویرایش مبلغ آدرس";
+"ReceiveAmountInputViewController.confirm" = "تأیید مبلغ";
+"ReceiveAmountInputViewController.remove" = "حذف مبلغ";
+"ReceiveAmountInputViewController.tooSmall" = "مبلغ بیش از اندازه کم است";
+"ReceiveAmountInputViewController.tooBig" = "مبلغ بیش از اندازه زیاد است";
+/* Presentation/Screen/LNURL/FirstTime/LNURLFirstTimeViewController.swift */
+"LNURLFirstTimeViewController.title" = "پرداخت های لایتنینگ را
+اسکن و دریافت کنید";
+"LNURLFirstTimeViewController.description" = "برای دریافت وجه بدون نیاز به اشتراک گذاری صورتحساب، از LNURL استفاده کنید. استفاده از این امکان فقط با سایر سرویس هایی که از آن پشتیبانی می کنند مقدور است.";
+/* Presentation/Screen/LNURL/ScanQR/LNURLScanQRViewController.swift */
+"LNURLScanQRViewController.title" = "دریافت";
+"LNURLScanQRViewController.helper" = "برای دریافت بیتکوین
+کیو آر کد یک LNURL را اسکن کنید";
+"LNURLScanQRViewController.enterManually" = "لینک LNURL را وارد کنید";
+"LNURLScanQRViewController.useClipboard" = "استفاده از لینک LNURL در چکنویس";
+/* Presentation/Screen/LNURL/ScanQR/ManuallyEnter/LNURLScanQRViewController.swift */
+"LNURLManuallyEnterQRViewController.title" = "دریافت";
+"LNURLManuallyEnterQRViewController.inputLabel" = "لینک LNURL";
+"LNURLManuallyEnterQRViewController.confirm" = "تأیید لینک";
+"LNURLManuallyEnterQRViewController.pasteFromClipboard" = "چسپاندن از چکنویس";
+"LNURLManuallyEnterQRViewController.invalid" = "این یک لینک LNURLw نیست"; /* LNURLw? what is it? */
+"LNURLManuallyEnterQRViewController.emptyClipboard" = "چکنویس شما خالی است";
+"LNURLManuallyEnterQRViewController.unexpectedError" = "خطایی رخ داده است. دوباره نسخه برداری کنید و بچسپانید.";
+
+/* Presentation/Screen/LNURL/Withdraw/LNURLWithdrawViewController.swift */
+"LNURLWithdrawViewController.title" = "دریافت";
+"LNURLWithdrawViewController.loading" = "در حال بارگذاری...";
+"LNURLWithdrawViewController.contacting" = "در حال تماس با %@...";
+"LNURLWithdrawViewController.receiving" = "در حال دریافت از %@...";
+"LNURLWithdrawViewController.tooLong" = "پرداخت %@ دارد بیش از اندازه طول می کشد";
+"LNURLWithdrawViewController.tooLongDescription" = "می توانید اینجا منتظر بمانید یا ترک کنید و هنگامی که پرداخت تکمیل شد اعلان دریافت کنید. اگر پرداخت تکمیل نشد، لطفا با %@ تماس بگیرید";
+"LNURLWithdrawViewController.copyToClipboard" = "نسخه برداری به چکنویس";
+/* Presentation/Screen/LNURL/Withdraw/LNURLWithdrawPresenter.swift */
+"LNURLWithdrawPresenter.invalidCodeTitle" = "آیا این یک کد LNURL است؟";
+"LNURLWithdrawPresenter.unresponsiveTitle" = "%@ پاسخگو نیست";
+"LNURLWithdrawPresenter.wrongTagTitle" = "آیا این یک برداشت LNURL است؟";
+"LNURLWithdrawPresenter.requestExpiredTitle" = "این درخواست برداشت منقضی شده است";
+"LNURLWithdrawPresenter.noAvailableBalanceTitle" = "موجودی ای برای برداشت وجود ندارد";
+"LNURLWithdrawPresenter.noRouteTitle" = "مسیری وجود ندارد";
+"LNURLWithdrawPresenter.unknownErrorTitle" = "مشکلی پیش آمده است";
+"LNURLWithdrawPresenter.invalidCodeDescription" = "به نظر نمی رسد این یک لینک LNURL باشد. لطفا منبع را بازبینی کنید. به خاطر داشته باشید که فقط با سرویس هایی که از LNURL پشتیبانی می کنند می توانید از آن استفاده کنید.";
+"LNURLWithdrawPresenter.unresponsiveDescription" = "سرویسی که این کد LNURL را ایجاد کرده است غیر قابل دسترسی است. لطفا بعدا دوباره امتحان کنید.";
+"LNURLWithdrawPresenter.wrongTagDescription" = "این یک LNURL معتبر است، ولی نه برای این عملیات. لطفا منبع را بازبینی کنید. به خاطر داشته باشید که از LNURL می توانید فقط برای برداشت وجه استفاده کنید.";
+"LNURLWithdrawPresenter.requestExpiredDescription" = "این LNURL پیش از پرداخت منقضی شده است. لطفا یکی دیگر درخواست کنید.";
+"LNURLWithdrawPresenter.noAvailableBalanceDescription" = "به نظر می رسد موجودی کافی برای برداشت از %@ ندارید. لطفا مانده خود را بررسی کنید که صفر نباشد.";
+"LNURLWithdrawPresenter.noRouteDescription" = "به نظر می رسد %@ نتوانسته است مسیری برای پرداخت به شما پیدا کند. پیشنهاد می کنیم با <service> تماس بگیرید و ایشان را مطلع کنید.";
+"LNURLWithdrawPresenter.unknownErrorDescription" = "چیزی از کار افتاده و مطمئن نیستیم چه بوده است. لطفا گزارشی برایمان ارسال کنید تا کمک کند بفهمیم چه اتفاقی افتاده است.";
+"LNURLWithdrawPresenter.expiredInvoiceTitle" = "پرداخت شما ناموفق بود";
+"LNURLWithdrawPresenter.expiredInvoiceDescription" = "صورتحساب لایتنینگ شما منقضی شده است و %@ پرداخت را تکمیل نکرده است. لطفا برای اطلاعات بیشتر با ایشان تماس بگیرید.";
+"LNURLWithdrawPresenter.alreadyUsedTitle" = "این کد قبلا استفاده شده است";
+"LNURLWithdrawPresenter.alreadyUsedDescription" = "این کد قبلا توسط کیف دیگری استفاده شده است و نمی تواند دوباره استفاده شود.";
+"LNURLWithdrawPresenter.countryNotSupportedTitle" = "از این کشور پشتیبانی نمی شود";
+"LNURLWithdrawPresenter.countryNotSupportedDescription" = "سرویسی که این کد را ایجاد کرده است در کشور شما قابل دسترسی نیست.";
+"LNURLWithdrawPresenter.pendingNotificationTitle" = "پرداختتان در حال انجام است";
+"LNURLWithdrawPresenter.pendingNotificationBody" = "به محض تکمیل از سوی %@ وجه خود را دریافت خواهید کرد.";
+"LNURLWithdrawPresenter.failedNotificationTitle" = "پرداخت شما ناموفق بود";
+"LNURLWithdrawPresenter.failedNotificationBody" = "صورتحساب لایتنینگ شما منقضی شد و %@ پرداخت را تکمیل نکرد.";
+"LNURLWithdrawPresenter.invoice" = "صورتحساب";
+"LNURLWithdrawPresenter.receivedMessage" = "پیام دریافتی";
+/* Presentation/Screen/LNURL/FromSend/LNURLFromSendViewController.swift */
+"LNURLFromSendViewController.title" = "می خواهید با لایتنینگ دریافت کنید؟";
+"LNURLFromSendViewController.description" = "به نظر این یک کد LNURL است. بااین کد می توانید از طریق لایتنینگ بیتکوین دریافت کنید، نه ارسال. می خواهید از این استفاده کنید؟";
+"LNURLFromSendViewController.receiveBitcoin" = "دریافت بیتکوین";
+"LNURLFromSendViewController.goBack" = "برگشت به ارسال";
+/* Presentation/Screen/RecoverWallet/Email/SignInEmailViewController.swift */
+"SignInEmailViewController.s1" = "بازیابی کیف شما";
+"SignInEmailViewController.s2" = "ایمیل خود را وارد کنید";
+"SignInEmailViewController.s3" = "هنگام ایجاد کیف انتخابش کردید.";
+"SignInEmailViewController.s4" = "ایمیل شما";
+"SignInEmailViewController.s5" = "you@example.com";
+"SignInEmailViewController.s6" = "ورود ایمیل";
+"SignInEmailViewController.s7" = "بازیابی توسط کد بازیابی";
+"SignInEmailViewController.s8" = "این ایمیل ثبت نشده است";
+/* Presentation/Screen/RecoverWallet/Password/SignInPasswordViewController.swift */
+"SignInPasswordViewController.s1" = "کیفتان را بازیابی کنید";
+"SignInPasswordViewController.s2" = "گذرواژه خود را وارد کنید";
+"SignInPasswordViewController.s3" = "گذرواژه";
+"SignInPasswordViewController.s4" = " حداقل شامل 8 حرف";
+"SignInPasswordViewController.s6" = "ورود گذرواژه";
+"SignInPasswordViewController.s7" = "گذرواژه خود را فراموش کرده ام";
+"SignInPasswordViewController.s8" = "بازیابی کیف لغو شود؟";
+"SignInPasswordViewController.s9" = "بازیابی کیف خود را تکمیل نکردید. می توانید بعدا این کار را انجام دهید.";
+"SignInPasswordViewController.s10" = "ادامه";
+"SignInPasswordViewController.s11" = "لغو";
+"SignInPasswordViewController.s12" = "گذرواژه اشتباه است";
+/* Presentation/Screen/RecoverWallet/Recover+MoreInfo.swift */
+"Recover.s1" = "کد بازیابی چیست؟";
+"Recover.s2" = "گذرواژه های فراموش شده";
+"Recover.s3" = "مجموعه ای از حروف و اعداد تصادفی است که تنها راه ورود در صورت فراموش کردن گذرواژه شما خواهد بود.
+شما در %@ ایجادش کردید و به احتمال زیاد روی کاغذ یادداشتش کردید.";
+"Recover.s4" = "مجموعه ای از حروف و اعداد تصادفی است که تنها راه ورود در صورت فراموش کردن گذرواژه شما خواهد بود.";
+"Recover.s5" = "مون هیچ نسخه ای از گذرواژه شما نزد خود نگه داری نمی کند و در نتیجه امکان تنظیم دوباره آن وجود ندارد.
+سعی کنید به یادش بیاورید. شما در %@ انتخابش کردید";
+"Recover.s6" = "مون هیچ نسخه ای از گذرواژه شما نزد خود نگه داری نمی کند و در نتیجه امکان تنظیم دوباره آن وجود ندارد.
+سعی کنید به یادش بیاورید.";
+/* Presentation/Screen/RecoverWallet/RecoveryCode/SignInEmailAndRCViewController.swift */
+"SignInEmailAndRCViewController.s1" = "بازیابی کیف شما";
+"SignInEmailAndRCViewController.s2" = "کد بازیابی خود را وارد کنید";
+"SignInEmailAndRCViewController.s3" = "شما در %@ ایجادش کردید و به احتمال زیاد روی کاغذ یادداشتش کردید. این چیست؟";
+"SignInEmailAndRCViewController.s4" = "این چیست؟";
+"SignInEmailAndRCViewController.s5" = "به احتمال زیاد روی کاغذ یادداشتش کردید. این چیست؟";
+"SignInEmailAndRCViewController.s7" = "کد بازیابی اشتباه است. لطفا دوباره امتحان کنید.";
+"SignInEmailAndRCViewController.s8" = "کد بازیابی خود را وارد کنید";
+/* Presentation/Screen/RecoverWallet/VerifyEmail/SignInAuthorizeEmailViewController.swift */
+"SignInAuthorizeEmailViewController.s1" = "صدور مجوز بازیابی کیف";
+"SignInAuthorizeEmailViewController.s2" = "بازیابی کیف شما";
+"SignInAuthorizeEmailViewController.s3" = "انتخاب ایمیل";
+"SignInAuthorizeEmailViewController.s4" = "شما یک ایمیل تأیید مجوز در %@ دریافت خواهید کرد. لطفا برای ادامه، روی لینک داخل ایمیل کلیک کنید.";
+/* Presentation/Screen/RecoverWithRC/InputRC/SignInWithRCView.swift */
+"SignInWithRCView.s1" = "ورود کد بازیابی";
+"SignInWithRCView.s2" = "کد بازیابی خود را وارد کنید";
+"SignInWithRCView.s3" = "این چیست؟";
+"SignInWithRCView.s4" = "کد بازیابی اشتباه است. لطفا دوباره امتحان کنید.";
+"SignInWithRCView.s5" = "اول ایمیلتان را وارد کنید";
+"SignInWithRCView.s6" = "این کد بازیابی بدون اینکه اول ایمیلتان را وارد کنید قابل استفاده نیست.";
+/* Presentation/Screen/RecoverWithRC/InputRC/SignInWithRCViewController.swift */
+"SignInWithRCViewController.s1" = "بازیابی کیف پول شما";
+/* Presentation/Screen/RecoverWithRC/VerifyEmail/SignInWithRCVerifyEmailPresenter.swift */
+"SignInWithRCVerifyEmailPresenter.s1" = "مشکلی پیش آمده است";
+/* Presentation/Screen/RecoverWithRC/VerifyEmail/SignInWithRCVerifyEmailViewController.swift */
+"SignInWithRCVerifyEmailViewController.s1" = "صدور مجوز بازیابی کیف";
+"SignInWithRCVerifyEmailViewController.s2" = "بازیابی کیف شما";
+"SignInWithRCVerifyEmailViewController.s3" = "انتخاب ایمیل";
+"SignInWithRCVerifyEmailViewController.s4" = "شما یک ایمیل تأیید مجوز در %@ دریافت خواهید کرد. لطفا برای ادامه، روی لینک داخل ایمیل کلیک کنید.";
+/* Presentation/Screen/SecurityCenter/EmergencyKit/Activate/ActivateEmergencyKitView.swift */
+"ActivateEmergencyKitView.s1" = "تأیید بسته اضطراری";
+"ActivateEmergencyKitView.s4" = "کد تأیید";
+"ActivateEmergencyKitView.s6" = "نمی توانید پیدایش کنید؟";
+"ActivateEmergencyKitView.s8" = "کد اشتباه است";
+"ActivateEmergencyKitView.activationDescription" = "برای اطمینان از اینکه همه چیز درست انجام شده است، کد تأیید 6 رقمی در گوشه بالا سمت راست سند را وارد کنید.";
+"ActivateEmergencyKitView.boldDescription" = "کد تأیید 6 رقمی";
+"ActivateEmergencyKitView.oldCodeError" = "این کد قدیمی است. آخرین بسته اضطراری خود را ببینید (کد شما با %@ شروع می شود)";
+"ActivateEmergencyKitView.oldCodeErrorRed" = "این کد قدیمی است.";
+/* Presentation/Screen/SecurityCenter/EmergencyKit/Activate/ActivateEmergencyKitViewController.swift */
+"ActivateEmergencyKitViewController.s1" = "بسته اضطراری";
+/* Presentation/Screen/SecurityCenter/EmergencyKit/Help/HelpEmergencyKitView.swift */
+"HelpEmergencyKitView.s1" = "نمی توانید کد تأیید را پیدا کنید؟";
+"HelpEmergencyKitView.s2" = "عدد 6 رقمی";
+"HelpEmergencyKitView.s5" = "کد تأیید یک عدد 6 رقمی است که در گوشه بالا سمت راست بسته اضطراری شما نوشته شده است.";
+/* Presentation/Screen/SecurityCenter/EmergencyKit/RecoveryTool/RecoveryToolViewController.swift */
+"RecoveryToolViewController.s1" = "بازیابی بیتکوین شما";
+"RecoveryToolViewController.s2" = "از ابزار بازیابی برای پس گرفتن پول خود استفاده کنید";
+"RecoveryToolViewController.s3" = "اگر به هر دلیلی مون از دسترس خارج شد، از این طریق می توانید به تمام پول خود بدون نیاز به ارتباط با سرورهای ما دسترسی پیدا کنید.";
+"RecoveryToolViewController.s4" = "از کلیدهای خصوصی رمزنگاری شده، کد بازیابی و ابزار بازیابی برای بازیابی بیتکوین خود استفاده کنید.";
+"RecoveryToolViewController.s5" = "در https://github.com/muun/recovery می توانید به ابزار بازیابی و دستورالعمل فرآیند بازیابی دسترسی داشته باشید.";
+/* SaveEmergencyKitOptionView.swift */
+"SaveEmergencyKitOptionView.driveTitle" = "ذخیره سازی در Google Drive";
+"SaveEmergencyKitOptionView.driveDescription" = "از حساب کاربری گوگل خود برای ذخیره سازی و دسترسی به بسته اضطراری استفاده کنید.";
+"SaveEmergencyKitOptionView.icloudTitle" = "ذخیره سازی در iCloud";
+"SaveEmergencyKitOptionView.icloudDescription" = "از حساب کاربری اپل خود برای ذخیره سازی و دسترسی به بسته اضطراری استفاده کنید.";
+"SaveEmergencyKitOptionView.icloudDisabledDescription" = "برای خروجی گرفتن از بسته اضطراری، iCloud را در تنظیمات موبایل خود فعال کنید.";
+"SaveEmergencyKitOptionView.anotherCloudTitle" = "سرویس ابری دیگری پیشنهاد کنید";
+"SaveEmergencyKitOptionView.anotherCloudDescription" = "به ما بگویید که دوست دارید از چه سرویس ابری دیگری پشتیبانی کنیم.";
+"SaveEmergencyKitOptionView.recommended" = "توصیه شده";
+"SaveEmergencyKitOptionView.notEnabled" = "غیرفعال";
+"SaveEmergencyKitOptionView.openInDrive" = "روی Google Drive باز کن";
+"SaveEmergencyKitOptionView.openInICloud" = "روی iCloud باز کن";
+"SaveEmergencyKitOptionView.verifyTitle" = "بسته اضطراری خود را تأیید کنید";
+"SaveEmergencyKitOptionView.verifyDescriptionDrive" = "شما بسته اضطراری خود را در Google Drive ذخیره کردید. قبل از ادامه، بروید و پیدایش کنید و محتویاتش را ببینید. مطمئن شوید که می توانید در آینده هم این کار را انجام دهید.";
+"SaveEmergencyKitOptionView.verifyDescriptionICloud" = "شما بسته اضطراری خود را در iCloud ذخیره کردید. قبل از ادامه، بروید و پیدایش کنید و محتویاتش را ببینید. مطمئن شوید که می توانید در آینده هم این کار را انجام دهید.";
+/* Presentation/Screen/SecurityCenter/EmergencyKit/Share/ShareEmergencyKitView.swift */
+"ShareEmergencyKitView.exportTitle" = "بسته اضطراری خود را ذخیره کنید";
+"ShareEmergencyKitView.updateTitle" = "بسته اضطراری خود را به روز رسانی کنید";
+"ShareEmergencyKitView.description" = "سرویس ابری مورد نظرتان را انتخاب کنید تا مطمئن شوید بسته اضطراری شما هیچوقت گم نمی شود.";
+"ShareEmergencyKitView.saveManually" = "نمی خواهم از ذخیره سازی ابری استفاده کنم";
+/* Presentation/Screen/SecurityCenter/EmergencyKit/Share/ShareEmergencyKitViewController.swift */
+"ShareEmergencyKitViewController.s1" = "بسته اضطراری";
+"ShareEmergencyKitViewController.uploading" = "در حال بارگذاری بسته اضطراری شما";
+"ShareEmergencyKitViewController.updating" = "در حال به روز رسانی بسته اضطراری شما";
+"ShareEmergencyKitViewController.ekUploadErrorTitle" = "بسته اضطراری شما ذخیره نشد";
+"ShareEmergencyKitViewController.ekUploadErrorDescription" = "نتوانستیم بسته اضطراری شما را روی سرویس ابری بارگذاری کنیم. لطفا اتصالتان به اینترنت را بررسی کنید و دوباره امتحان کنید.";
+"ShareEmergencyKitViewController.alertRetry" = "تلاش مجدد";
+"ShareEmergencyKitViewController.alertCancel" = "لغو";
+"ShareEmergencyKitViewController.fileName" = "Muun - Emergency Kit.pdf";
+/* Presentation/Screen/SecurityCenter/EmergencyKit/Share/ManualSaveEmergencyKitView.swift */
+"ManualSaveEmergencyKitView.title" = "می خواهید بسته اضطراری را به صورت دستی ذخیره کنید؟ چند نکته که خوب است رعایتشان کنید.";
+"ManualSaveEmergencyKitView.accesible" = "از امکان دسترسی به بسته اضطراری مطمئن شوید. شما می بایست همیشه به بسته اضطراری خود دسترسی داشته باشید، حتی اگر موبایلتان گم شد یا دزدیده شد یا از کار افتاد.";
+"ManualSaveEmergencyKitView.accesibleBold" = "دسترس پذیرش کنید.";
+"ManualSaveEmergencyKitView.secrecy" = "به پنهانکاری اولویت ندهید. به خاطر داشته باشید که بسته اضطراری شما رمزگذاری شده است. بدون کد بازیابی شما، بسته ی اضطراری حتی اگر به دست کسی بیافتد بی خطر است. ";
+"ManualSaveEmergencyKitView.secrecyBold" = "به پنهانکاری اولویت ندهید.";
+"ManualSaveEmergencyKitView.update" = "به روز رسانیش را آسان کنید. همیشه می بایست آخرین بسته اضطراری را داشته باشید. بسته های قدیمی کار نمی کنند.";
+"ManualSaveEmergencyKitView.updateBold" = "به روز رسانیش را آسان کنید.";
+"ManualSaveEmergencyKitView.save" = "ذخیره دستی";
+/* Presentation/Screen/SecurityCenter/EmergencyKit/Share/RequestCloudView.swift */
+"RequestCloudView.description" = "قصد داریم از سرویسهای ابری بیشتری پشتیبانی کنیم. دوست دارید کدامشان را اضافه کنیم؟";
+"RequestCloudView.send" = "ارسال بازخورد";
+/* Presentation/Screen/SecurityCenter/EmergencyKit/Verify/VerifyEmergencyKitView.swift */
+"VerifyEmergencyKitView.done" = "انجام شد";
+/* Presentation/Screen/SecurityCenter/EmergencyKit/Slides/SlidesViewController.swift */
+"SlidesViewController.swipe" = "برای ادامه بکشید";
+"EmergencyKitSlides.s1" = "بسته اضطراری";
+"EmergencyKitSlides.s2" = "بسته اضطراری خود را ایجاد کنید";
+"EmergencyKitSlides.s4" = "یک سند";
+"EmergencyKitSlides.s5" = "کلیدهای خصوصی شما به صورت امنی با استفاده از کد بازیابی شما رمزنگاری شده اند. در نتیجه می توانید در فضای برخط ذخیره شان کنید.";
+"EmergencyKitSlides.s6" = "ذخیره شده در فضای برخط";
+"EmergencyKitSlides.s7" = "مالکیت کامل";
+"EmergencyKitSlides.s8" = "فرآیند خروجی گرفتن از بسته اضطراری خود را تمام نکردید. می توانید بعدا این فرآیند را دوباره شروع کنید.";
+"EmergencyKitSlides.s9" = "می خواهید خروجی گرفتن از بسته اضطراری متوقف شود؟";
+"EmergencyKitSlides.s10" = "ادامه";
+"EmergencyKitSlides.s11" = "توقف";
+"EmergencyKitSlides.s12" = "بسته اضطراری شما یک فایل PDF است که حاوی اطلاعات و دستورالعملهای لازم برای انتقال مستقل بیتکوین شما است.";
+"EmergencyKitSlides.s13" = "با ترکیب بسته اضطراری و کد بازیابیتان، کنترل مطلق و بی چون و چرا بر بیتکوین خود خواهید داشت.";
+
+"TaprootActivationSlides.title1" = "جهشی بزرگ برای بیتکوین";
+"TaprootActivationSlides.description1" = "تپروت یکی از ارتقاهای پرطرفدار بیتکوین است.
+
+با ایجاد امکان تراکنش های ارزانتر و کمتر قابل ردزنی، تپروت زمینه ی نوآوری های عظیمی را در بیتکوین فراهم کرده است.";
+"TaprootActivationSlides.title2" = "توانمند شده با کدنوشته های قوی";
+"TaprootActivationSlides.description2" = "تپروت از کدنوشته های جدیدی برای ایجاد آدرسهای دریافت بیتکوین استفاده می کند.
+
+برای بازیابی بیتکوین در زمان اضطرار، لازم است این کدنوشته ها هم در بسته اضطراری شما نوشته شده باشند.";
+"TaprootActivationSlides.title3" = "کاملا امن";
+"TaprootActivationSlides.description3" = "کنترل کامل خود بر بیتکوینتان را با به روز رسانی بسته اضطراری پیش از استفاده از تپروت حفظ کنید.
+
+بسته اضطراری به روز رسانی شده جایگزین بسته قبلی می شود ولی کد بازیابی شما تغییری نمی کند.";
+"TaprootActivationSlides.finish" = "بسته اضطراری خود را به روز رسانی کنید";
+"TaprootActivationSlides.abortTitle" = "فعالسازی را ترک می کنید؟";
+"TaprootActivationSlides.abortDescription" = "شما هنوز تپروت را فعال نکرده اید. می توانید این فرآیند را بعدا دوباره شروع کنید.";
+"TaprootActivationSlides.stay" = "بمان";
+"TaprootActivationSlides.leave" = "ترک کن";
+
+/* Presentation/Screen/SecurityCenter/SecurityCenter+ActionCard.swift */
+"SecurityCenter.s1" = "از کلیدهایتان خروجی گرفتید";
+"SecurityCenter.s2" = "ابزار بازیابی";
+"SecurityCenter.s3" = "ایجاد یک بسته اضطراری";
+"SecurityCenter.s4" = "دریافت اطلاعات مورد نیاز برای بازیابی بیتکوینتان بدون استفاده از مون.";
+"SecurityCenter.s5" = "شما یک بسته اضطراری ایجاد کردید";
+"SecurityCenter.s6" = "برای بازیابی بیتکوینتان بدون استفاده از مون، دستورالعمل نوشته شده در بسته اضطراریتان که ذخیره اش کرده اید را اجرا کنید.";
+"SecurityCenter.s7" = "شما کلیدهای خصوصیتان را یادداشت کردید. برای بازیابی بیتکوینتان بدون استفاده از مون، از کلیدهای خصوصیتان به همراه کد بازیابیتان و ابزار بازیابی استفاده کنید .";
+/* Presentation/Screen/SecurityCenter/SecurityCenter+Feedback.swift */
+"SecurityCenter.s8" = "عالی";
+"SecurityCenter.s9" = "مشکلی پیش آمده است";
+"SecurityCenter.s10" = "مشکلی در اتصال وجود داشت و و عملیات منقضی شد. لطفا دوباره امتحان کنید.";
+"SecurityCenter.s11" = "به صفحه اصلی برگرد";
+"SecurityCenter.s12" = "با موفقیت انجام شد!";
+"SecurityCenter.EKSuccessDescription" = "شما مالکیت کامل و بی چون و چرا بر بیتکوینتان دارید.";
+
+"SecurityCenter.taprootActivated.title" = "شما برای استفاده از تپروت آماده اید!";
+"SecurityCenter.taprootPreactivated.description" = "ظرف %@ بلاک (~%@ ساعت)، شبکه بیتکوین تپروت را به صورت جهانی فعال می کند.
+
+وقتی این اتفاق بیافتد، شما خواهید توانست در آدرس های تپروت بیتکوین دریافت کنید.";
+"SecurityCenter.taprootActivated.description" = "حالا می توانید با آدرس های تپروت پرداخت و دریافت کنید. پرداختهای شما ارزانتر و کمتر قابل ردزنی خواهند بود.";
+
+"SecurityCenter.taprootActivationCountdown.title" = "این شمارش معکوس نهایی است!";
+"SecurityCenter.taprootActivationCountdown.description" = "وقتی شبکه بیتکوین بلاک شماره 709,632 را استخراج کند، تپروت به صورت جهانی فعال خواهد شد.
+
+برای محافظت از شما در مقابل بازچینش احتمالی بلاکچین، از %1@ بلاک دیگر می توانید از آدرس های تپروت استفاده کنید.
+
+ %2@ بلاک باقی مانده است!";
+
+/* Presentation/Screen/SecurityCenter/SecurityCenter+MoreInfo.swift */
+"SecurityCenter.s13" = "چرا گذرواژه قابل تنظیم دوباره نیست؟";
+"SecurityCenter.s14" = "کد بازیابی چیست؟";
+"SecurityCenter.s15" = "مون هیچ نسخه ای از این کد نگه داری نمی کند";
+"SecurityCenter.s16" = "مون از ایمیل من چگونه استفاده خواهد کرد؟";
+"SecurityCenter.s17" = "از گذرواژه شما برای رمزگذاری پشتیبان کیفتان استفاده شده است. در نتیجه هیچکس، حتی مون، نمی تواند بدون آن به پشتیبان کیفتان دسترسی پیدا کند. اگر گذرواژه اصلی خود را فراموش کنید، پشتیبان قابل رمزگشایی و استفاده نخواهد بود.";
+"SecurityCenter.s18" = "این مجموعه ای از حروف و اعداد تصادفی است.
+
+ما از کد بازیابی برای تهیه یک پشتیبان رمزگذاری شده از کلید شخصی شما برای زمانی که گذرواژه خود را فراموش کردید استفاده می کنیم. شما می توانید با استفاده از این پشتیبان و کد بازیابیتان، به کیفتان دسترسی پیدا کنید.
+
+ما نسخه ای از این کد را نگه داری نمی کنیم. پس روی یک برگه کاغذ بنویسیدش و از آن مراقبت کنید.";
+"SecurityCenter.s19" = "هربار کسی سعی کند به کیف شما دسترسی پیدا کند، مون یک ایمیل برای دریافت مجوز به شما ارسال خواهد کرد. این کار از شما در مقابل افراد یا کامپیوترهایی که سعی می کنند گذرواژه شما را حدس بزنند محافظت می کند و اگر کسی چنین کاری بکند به شما هشدار می دهد.";
+"SecurityCenter.s20" = "آیا ذخیره سازی ابری امن است؟";
+"SecurityCenter.s21" = "اطلاعات داخل بسته اضطراری شما به صورت امنی با کد بازیابیتان رمزگذاری شده است. بدون دسترسی به کد بازیابی، بسته اضطراری حتی اگر به دست کسی بیافتد نمی تواند صدمه ای به شما بزند.
+
+از آنجایی که کد بازیابی شما روی کاغذ نوشته شده است، شما می توانید بسته اضطراری خود را بدون ریسک روی سرویسهای ابری ذخیره کنید. به این ترتیب، بسته اضطراری شما امن و در بلندمدت در دسترس خواهد بود.";
+/* Presentation/Screen/SecurityCenter/SecurityCenterPresenter.swift */
+"SecurityCenterPresenter.s1" = "کیف شما بدون پشتیبان است";
+"SecurityCenterPresenter.s2" = "شما یک گام با راه اندازی کامل فاصله دارید";
+"SecurityCenterPresenter.s3" = "کیف شما یک پشتیبان ساده دارد";
+/* Presentation/Screen/SecurityCenter/SecurityCenterViewController.swift */
+"SecurityCenterViewController.s1" = "مرکز امنیت";
+"SecurityCenterViewController.s2" = "شما راه اندازی را کامل کردید";
+"SecurityCenterViewController.s3" = "یک بسته اضطراری دیگر ایجاد کنید";
+"SecurityCenterViewController.s4" = "دوباره از کلیدهای خصوصی خود خروجی بگیرید";
+/* Presentation/Screen/SecurityCenter/SetupEmail/Email/EmailAlreadyUsedView.swift */
+"EmailAlreadyUsedView.s1" = "کیف دیگری در حال استفاده از این ایمیل است";
+"EmailAlreadyUsedView.s2" = "تیم پشتیبانی";
+"EmailAlreadyUsedView.s3" = "اگر در مورد کیفتان به کمک احتیاج دارید، لطفا با تیم پشتیبانی ما تماس بگیرید و اطلاع دهید که چه اتفاقی افتاده است. خوشحال خواهیم شد کمک کنیم.";
+/* Presentation/Screen/SecurityCenter/SetupEmail/Email/SignUpEmailViewController.swift */
+"SignUpEmailViewController.s1" = "به کمک نیاز دارید؟";
+"SignUpEmailViewController.s2" = "ایمیل";
+"SignUpEmailViewController.s3" = "example@you.com";
+"SignUpEmailViewController.s4" = "تأیید ایمیل";
+"SignUpEmailViewController.s5" = "کیف دیگری در حال استفاده از این ایمیل است";
+/* Presentation/Screen/SecurityCenter/SetupEmail/FinishEmailSetup/FinishEmailSetupViewController.swift */
+"FinishEmailSetupViewController.s1" = "دو نکته که می بایست بهشان توجه کنید";
+"FinishEmailSetupViewController.s2" = "پایان";
+"FinishEmailSetupViewController.s3" = "چرا گذرواژه قابل تنظیم دوباره نیست؟";
+"FinishEmailSetupViewController.s4" = "شما راه اندازی روش بازیابی خود را تکمیل نکردید. می توانید این کار را بعدا دوباره انجام دهید.";
+"FinishEmailSetupViewController.s5" = "راه اندازی بازیابی متوقف شود؟";
+"FinishEmailSetupViewController.s6" = "لغو";
+"FinishEmailSetupViewController.s7" = "توقف";
+/* Presentation/Screen/SecurityCenter/SetupEmail/Password/SignUpPasswordViewController.swift */
+"SignUpPasswordViewController.s1" = "گذرواژه خود را ایجاد کنید";
+"SignUpPasswordViewController.s2" = "گذرواژه ای انتخاب کنید که به یادتان بماند. اگر می توانید، از گذرواژه های قدیمی که در حال استفاده از آنها هستید اجتناب کنید.";
+"SignUpPasswordViewController.s3" = "حداقل 8 حرف";
+"SignUpPasswordViewController.s4" = "گذرواژه شما";
+"SignUpPasswordViewController.s5" = "مثال: correct horse battery staple";
+"SignUpPasswordViewController.s6" = "گذواژه ها می بایست یکسان باشند";
+"SignUpPasswordViewController.s7" = "گذرواژه خود را تأیید کنید";
+"SignUpPasswordViewController.s9" = "ایجاد گذرواژه";
+"SignUpPasswordViewController.s10" = "شما راه اندازی روش بازیابی خود را تکمیل نکردید. می توانید این کار را بعدا دوباره انجام دهید.";
+"SignUpPasswordViewController.s11" = "راه اندازی بازیابی متوقف شود؟";
+"SignUpPasswordViewController.s12" = "لغو";
+"SignUpPasswordViewController.s13" = "توقف";
+"SignUpPasswordViewController.s14" = "تأیید گذرواژه";
+/* Presentation/Screen/SecurityCenter/SetupEmail/Priming/EmailPrimingViewController.swift */
+"EmailPrimingViewController.s1" = "شروع";
+"EmailPrimingViewController.s2" = "نمی خواهم از ایمیلم استفاده کنم";
+"EmailPrimingViewController.s3" = "مطمئنید که نمی خواهید از ایمیل بازیابی استفاده کنید؟";
+"EmailPrimingViewController.s4" = "اگر بعدا نظرتان عوض شد می توانید برگردید.";
+"EmailPrimingViewController.s5" = "لغو";
+"EmailPrimingViewController.s6" = "مطمئنم";
+/* Presentation/Screen/SecurityCenter/SetupEmail/SetupEmailWording.swift */
+"SetupEmailWording.s1" = "برای کیفتان پشتیبان تهیه کنید";
+"SetupEmailWording.s2" = "از ایمیلتان و یک گذرواژه برای بازیابی کیفتان استفاده کنید.";
+"SetupEmailWording.s3" = "یک روش بازیابی ایجاد کنید تا اگر موبایلتان را عوض کردید یا مون را دوباره نصب کردید مشکلی برایتان ایجاد نشود.";
+"SetupEmailWording.s4" = "از ایمیلتان و یک گذرواژه برای بازیابی کیفتان استفاده کنید.";
+"SetupEmailWording.s5" = "شما برای کیفتان پشتیبان تهیه کردید";
+"SetupEmailWording.s6" = "از %@ و گذرواژه تان برای بازیابی کیفتان استفاده کنید.";
+"SetupEmailWording.s8" = "تهیه پشتیبان با گذرواژه";
+"SetupEmailWording.s10" = "امنیت خود را بهبود دهید";
+"SetupEmailWording.s11" = "ایمیل بازیابی خود را وارد کنید";
+"SetupEmailWording.s12" = "مون از ایمیل من چگونه استفاده خواهد کرد؟";
+"SetupEmailWording.s13" = "شما یک لینک تأیید دریافت خواهید کرد. مون از ایمیل من چگونه استفاده خواهد کرد؟";
+"SetupEmailWording.s14" = "متوجه هستم که برای بازیابی کیفم، به گذرواژه ام و دسترسی به ایمیلم نیاز خواهم داشت.";
+"SetupEmailWording.s15" = "متوجه هستم که اگر گذرواژه ام را فراموش کردم، مون نمی تواند گذرواژه را برایم تنظیم دوباره کند.";
+"SetupEmailWording.s16" = "با موفقیت انجام شد!";
+"SetupEmailWording.s17" = "شما برای کیفتان پشتیبان تهیه کردید و حالا می توانید با استفاده از ایمیل و گذرواژه تان آن را بازیابی کنید.";
+"SetupEmailWording.s18" = "از ایمیلتان و یک گذرواژه استفاده کنید تا به راحتی در صورت تعویض موبایلتان یا نصب دوباره مون، بتوانید کیفتان را بازیابی کنید.";
+"SetupEmailWording.s19" = "از ایمیلتان و یک گذرواژه استفاده کنید تا به راحتی در صورت تعویض موبایلتان یا نصب دوباره مون، بتوانید کیفتان را بازیابی کنید.
+
+این کار تأیید چندعاملی را فعال می کند که باعث بهبود امنیت هنگام استفاده از کد بازیابی می شود.";
+/* Presentation/Screen/SecurityCenter/SetupEmail/VerifyEmail/EmailClientsPicker.swift */
+"EmailClientsPicker.s1" = "لغو";
+/* Presentation/Screen/SecurityCenter/SetupEmail/VerifyEmail/SignUpVerifyEmailViewController.swift */
+"SignUpVerifyEmailViewController.s1" = "ایمیل بازیابی خود را تأیید کنید";
+"SignUpVerifyEmailViewController.s2" = "انتخاب ایمیل";
+"SignUpVerifyEmailViewController.s3" = "شما یک ایمیل تأیید در %@ دریافت خواهید کرد. لطفا برای ادامه، روی لینک داخل ایمیل کلیک کنید.";
+/* Presentation/Screen/SecurityCenter/SetupRecoveryCode/Confirm/FinishRecoveryCodeSetupViewController.swift */
+"FinishRecoveryCodeSetupViewController.s1" = "دو نکته که می بایست بهشان توجه کنید";
+"FinishRecoveryCodeSetupViewController.s2" = "پایان";
+/* Presentation/Screen/SecurityCenter/SetupRecoveryCode/Generate/GenerateRecoveryCodeViewController.swift */
+"GenerateRecoveryCodeViewController.s1" = "کد بازیابی خود را در جایی یادداشت کنید";
+"GenerateRecoveryCodeViewController.s2" = "از خودکار و کاغذ استفاده کنید. برای حفظ امنیت، این کد را در موبایلتان یا سرویسهای ابری ذخیره نکنید.";
+"GenerateRecoveryCodeViewController.s3" = "ادامه";
+"GenerateRecoveryCodeViewController.s4" = "راه اندازی کد بازیابی متوقف شود؟";
+"GenerateRecoveryCodeViewController.s5" = "لغو";
+"GenerateRecoveryCodeViewController.s6" = "توقف";
+"GenerateRecoveryCodeViewController.s7" = "کد بازیابی شما تا زمانی که این فرآیند را کامل نکنید کار نخواهد کرد.";
+/* Presentation/Screen/SecurityCenter/SetupRecoveryCode/Priming/RecoveryCodePrimingViewController.swift */
+"RecoveryCodePrimingViewController.s1" = "شروع";
+/* Presentation/Screen/SecurityCenter/SetupRecoveryCode/SetUpRecoveryCodeWording.swift */
+"SetUpRecoveryCodeWording.s1" = "یک پشتیبان جایگزین ایجاد کنید";
+"SetUpRecoveryCodeWording.s2" = "برای بازیابی کیفتان، یک کد را روی کاغذ بنویسید.";
+"SetUpRecoveryCodeWording.s3" = "برای امنیت بیشتر، یک کد را روی کاغذ بنویسید.";
+"SetUpRecoveryCodeWording.s4" = "برای هنگامی که گذرواژه تان را فراموش کردید، یک کد را روی کاغذ بنویسید.";
+"SetUpRecoveryCodeWording.s5" = "شما یک پشتیبان جایگزین ایجاد کردید";
+"SetUpRecoveryCodeWording.s6" = "شما می توانید برای بازیابی کیفتان از کدی که یادداشت کردید استفاده کنید.";
+"SetUpRecoveryCodeWording.s7" = "از ایمیلتان و کدی که یادداشت کردید برای بازیابی کیفتان استفاده کنید.";
+"SetUpRecoveryCodeWording.s8" = "برای کیفتان پشتیبان تهیه کنید";
+"SetUpRecoveryCodeWording.s10" = "برای بازیابی کیفتان پس از تعویض موبایلتان یا نصب دوباره مون، یک کد را روی کاغذ بنویسید.";
+"SetUpRecoveryCodeWording.s11" = "برای بازیابی کیفتان در صورت فراموش کردن گذرواژه، یک کد را روی کاغذ بنویسید.";
+"SetUpRecoveryCodeWording.s13" = "امنیت خود را بهبود دهید";
+"SetUpRecoveryCodeWording.s14" = "متوجه هستم که در صورت فراموش کردن گذرواژه، به کد بازیابی نیاز خواهم داشت.";
+"SetUpRecoveryCodeWording.s15" = "متوجه هستم که برای بازیابی کیفم، به کد بازیابی نیاز خواهم داشت.";
+"SetUpRecoveryCodeWording.s16" = "متوجه هستم که مون نسخه ای از کد بازیابی من را نگه داری نمی کند و این کد قابل تغییر نیست.";
+"SetUpRecoveryCodeWording.s17" = "با موفقیت انجام شد!";
+"SetUpRecoveryCodeWording.s18" = "شما برای کیفتان پشتیبان تهیه کردید و حالا می توانید با استفاده از کد بازیابیتان، دوباره به دستش بیاورید.";
+"SetUpRecoveryCodeWording.s19" = "حالا شما می توانید با استفاده از ایمیل و کد بازیابیتان، کیف خود را بازیابی کنید.";
+/* Presentation/Screen/SecurityCenter/SetupRecoveryCode/Verify/VerifyRecoveryCodeViewController.swift */
+"VerifyRecoveryCodeViewController.s1" = "کد بازیابیتان را تأیید کنید";
+"VerifyRecoveryCodeViewController.s2" = "کد بازیابی اشتباه است. لطفا دوباره امتحان کنید.";
+"VerifyRecoveryCodeViewController.s3" = "تأیید کد بازیابی";
+/* Presentation/Screen/SessionExpired/SessionExpiredViewController.swift */
+"SessionExpiredViewController.s1" = "شما خارج شده بودید";
+"SessionExpiredViewController.s2" = "مهلت شما تمام شده است. لطفا برای بازیابی کیفتان، مون را ببندید و دوباره باز کنید.";
+"SessionExpiredViewController.s3" = "راه اندازی دوباره";
+/* Presentation/Screen/Settings/ChangePassword/EnterCurrent/ChangePasswordEnterCurrentView.swift */
+"ChangePasswordEnterCurrentView.s1" = "گذرواژه خود را وارد کنید";
+"ChangePasswordEnterCurrentView.s2" = "گذرواژه کنونی";
+"ChangePasswordEnterCurrentView.s3" = "حداقل به طول 8 حرف";
+"ChangePasswordEnterCurrentView.s4" = "تأیید گذرواژه کنونی";
+"ChangePasswordEnterCurrentView.s5" = "گذرواژه خود را فراموش کردم";
+"ChangePasswordEnterCurrentView.s6" = "گذرواژه اشتباه است";
+"ChangePasswordEnterCurrentView.s7" = "تأیید کنید که مالک این کیف هستید.";
+/* Presentation/Screen/Settings/ChangePassword/EnterCurrent/ChangePasswordEnterCurrentViewController.swift */
+"ChangePasswordEnterCurrentViewController.s1" = "تغییر گذرواژه";
+/* Presentation/Screen/Settings/ChangePassword/EnterNew/ChangePasswordEnterNewView.swift */
+"ChangePasswordEnterNewView.s1" = "گذرواژه جدیدتان را ایجاد کنید";
+"ChangePasswordEnterNewView.s2" = "گذرواژه جدیدتان می بایست با گذرواژه قبلی فرق کند.";
+"ChangePasswordEnterNewView.s3" = "گذرواژه جدید";
+"ChangePasswordEnterNewView.s4" = "حداقل به طول 8 حرف";
+"ChangePasswordEnterNewView.s6" = "گذرواژه ها می بایست یکسان باشند";
+"ChangePasswordEnterNewView.s7" = "تأیید گذرواژه جدید";
+/* Presentation/Screen/Settings/ChangePassword/EnterNew/ChangePasswordEnterNewViewController.swift */
+"ChangePasswordEnterNewViewController.s1" = "تغییر گذرواژه";
+"ChangePasswordEnterNewViewController.s2" = "تغییر گذرواژه متوقف شود؟";
+"ChangePasswordEnterNewViewController.s3" = "تا زمانی که این فرآیند را تکمیل نکنید، گذرواژه جدیدتان کار نخواهد کرد.";
+"ChangePasswordEnterNewViewController.s4" = "لغو";
+"ChangePasswordEnterNewViewController.s5" = "توقف";
+/* Presentation/Screen/Settings/ChangePassword/EnterRecoveryCode/ChangePasswordEnterRecoveryCodeView.swift */
+"ChangePasswordEnterRecoveryCodeView.s1" = "تأیید کد بازیابی";
+"ChangePasswordEnterRecoveryCodeView.s2" = "کد بازیابیتان را وارد کنید";
+"ChangePasswordEnterRecoveryCodeView.s3" = "کد بازیابی اشتباه است. لطفا دوباره امتحان کنید.";
+/* Presentation/Screen/Settings/ChangePassword/EnterRecoveryCode/ChangePasswordEnterRecoveryCodeViewController.swift */
+"ChangePasswordEnterRecoveryCodeViewController.s1" = "تغییر گذرواژه";
+/* Presentation/Screen/Settings/ChangePassword/Priming/ChangePasswordPrimingView.swift */
+"ChangePasswordPrimingView.s1" = "شروع فرآیند تغییر گذرواژه";
+"ChangePasswordPrimingView.s2" = "گذرواژه خود را تغییر دهید";
+"ChangePasswordPrimingView.s3" = "گذرواژه شما برای تأمین امنیت استفاده می شود. برای تغییر آن، لازم است به ایمیلتان و گذرواژه کنونی یا کد بازیابیتان دسترسی داشته باشید.";
+/* Presentation/Screen/Settings/ChangePassword/Priming/ChangePasswordPrimingViewController.swift */
+"ChangePasswordPrimingViewController.s1" = "تغییر گذرواژه";
+/* Presentation/Screen/Settings/ChangePassword/RecoveryCodeMissing/RecoveryCodeMissingView.swift */
+"RecoveryCodeMissingView.s1" = "راه اندازی کد بازیابی";
+"RecoveryCodeMissingView.s2" = "کد بازیابی وجود ندارد";
+"RecoveryCodeMissingView.s3" = "برای تغییر گذرواژه، می بایست ابتدا کد بازیابیتان را راه اندازی کنید.";
+/* Presentation/Screen/Settings/ChangePassword/VerifyEmail/ChangePasswordVerifyViewController.swift */
+"ChangePasswordVerifyViewController.s1" = "تأیید تغییر گذرواژه";
+"ChangePasswordVerifyViewController.s2" = "شما یک ایمیل تأیید در %@ دریافت خواهید کرد";
+"ChangePasswordVerifyViewController.s3" = "تغییر گذرواژه";
+"ChangePasswordVerifyViewController.s4" = "انتخاب ایمیل";
+/* Presentation/Screen/Settings/ChangePassword/VerifyEmail/WaitForEmailView.swift */
+"WaitForEmailView.s1" = "در حال تأیید...";
+"WaitForEmailView.s2" = "آخرین ایمیل خود را باز کنید.";
+"WaitForEmailView.s3" = "برنامه ایمیل را باز کن";
+"WaitForEmailView.s4" = "آخرین ایمیل خود را باز کنید. تأیید با ایمیل ناموفق بود چون از یک لینک منقضی شده استفاده کردید. روی لینکی که در آخرین ایمیل دریافتیتان هست کلیک کنید.";
+/* Presentation/Screen/Settings/CurrencyPicker/BitcoinUnitPicker/BitcoinUnitPickerViewController.swift */
+"BitcoinUnitPickerViewController.s1" = "واحد بیتکوین";
+/* Presentation/Screen/Settings/CurrencyPicker/CurrencyPickerViewController.swift */
+"CurrencyPickerViewController.s1" = "ارزها";
+"CurrencyPickerViewController.s2" = "جستجو";
+"CurrencyPickerViewController.s3" = "بیشترین استفاده";
+"CurrencyPickerViewController.s4" = "نام کشورها به ترتیب الفبا";
+/* Presentation/Screen/Settings/LogOut/LogOutViewController.swift */
+"LogOutViewController.s1" = "شما خارج شده بودید";
+"LogOutViewController.s2" = "راه اندازی دوباره";
+"LogOutViewController.s3" = "شما رمز شخصی را 3 بار پشت سر هم اشتباه وارد کردید. به عنوان یک اقدام امنیتی خارج شدید. لطفا برای بازیابی کیفتان، مون را راه اندازی مجدد کنید.";
+/* Presentation/Screen/Settings/Settings+Feedback.swift */
+"Settings.s1" = "شما کیفتان را حذف کردید";
+"Settings.s2" = "پایان";
+"Settings.s3" = "شما گذرواژه تان را با موفقیت تغییر دادید";
+"Settings.s4" = "تیم پشتیبانی";
+"Settings.s5" = "از اینکه می روید متأسفیم. دوست داریم بدانیم چه کاری را می توانستیم بهتر انجام دهیم. با تیم پشتیبانی ما تماس بگیرید و آگاهمان کنید!";
+/* Presentation/Screen/Settings/SettingsViewController.swift */
+"SettingsViewController.s1" = "تنظیمات";
+"SettingsViewController.s2" = "عمومی";
+"SettingsViewController.s3" = "امنیت";
+"SettingsViewController.s4" = "خروج";
+"SettingsViewController.s5" = "حذف کیف";
+"SettingsViewController.s6" = "نسخه ";
+"SettingsViewController.s7" = "واحد بیتکوین";
+"SettingsViewController.s8" = "ارز اصلی";
+"SettingsViewController.s9" = "تغییر گذرواژه";
+"SettingsViewController.s10" = "الان نمی توانید کیفتان را حذف کنید";
+"SettingsViewController.ok" = "باشه";
+"SettingsViewController.s12" = "الان نمی توانید خارج شوید";
+"SettingsViewController.s13" = "بعضی پرداختهای شما در انتظار تأیید هستند. پیش از خروج منتظر تأیید آنها باشید.";
+"SettingsViewController.s15" = "مطمئنید می خواهید خارج شوید؟";
+"SettingsViewController.s16" = "برای دسترسی مجدد، به گذرواژه یا کد بازیابیتان نیاز خواهید داشت.";
+"SettingsViewController.cancel" = "لغو";
+"SettingsViewController.s19" = "مطمئنید؟";
+"SettingsViewController.s20" = "سوابق تراکنشهایتان را از دست خواهید داد.";
+"SettingsViewController.s22" = "حذف";
+"SettingsViewController.s23" = "شما می بایست کیفتان را خالی کنید. یک پرداخت با تمام موجودیتان انجام دهید و پس از اینکه آن تراکنش 6 تأیید دریافت کرد، دوباره امتحان کنید.";
+"SettingsViewController.advanced" = "تنظیمات پیشرفته";
+"SettingsViewController.lightningNetwork" = "شبکه لایتنینگ";
+"SettingsViewController.onchain" = "شبکه بیتکوین";
+/* Presentation/Screen/Sync/SyncViewController.swift */
+"SyncViewController.s1" = "در حال بارگذاری کیف شما";
+"SyncViewController.s2" = "در حال ایجاد کیف شما";
+/* Presentation/Screen/ApiMigrations/ApiMigrationsViewController.swift */
+"ApiMigrationsViewController.loading" = "در حال بارگذاری کیف شما";
+"ApiMigrationsViewController.failedAlertTitle" = "خطا در بارگذاری کیف";
+"ApiMigrationsViewController.failedAlertMessage" = "لطفا دوباره امتحان کنید.";
+"ApiMigrationsViewController.failedAlertRetry" = "تلاش مجدد";
+/* Presentation/Screen/UpdateApp/UpdateAppViewController.swift */
+"UpdateAppViewController.s1" = "به روز رسانی لازم است";
+"UpdateAppViewController.s2" = "این نسخه بیش از اندازه قدیمی است. می بایست برنامه مون خود را به روز رسانی کنید.";
+"UpdateAppViewController.s3" = "به روز رسانی برنامه";
+/* Presentation/Screen/TransactionListViewController.swift */
+"TransactionListViewController.vcTitle" = "تراکنشها";
+/* Presentation/Screen/TransactionListEmptyView.swift */
+"TransactionListEmptyView.title" = "سوابق پرداختهای شما اینجا نمایش داده خواهند شد";
+"TransactionListEmptyView.descriptionCta" = "دریافت";
+"TransactionListEmptyView.description" = "اولین دریافتتان را انجام دهید و شروع کنید!";
+/* AppDelegate */
+"AppDelegate.walletTab" = "کیف";
+"AppDelegate.securityTab" = "امنیت";
+"AppDelegate.settingsTab" = "تنظیمات";
+/* LightningNetworkSettings */
+"LightningNetworkSettings.title" = "شبکه لایتنینگ";
+"LightningNetworkSettings.confirmTitle" = "توربو کانالها غیرفعال شوند؟";
+"LightningNetworkSettings.confirmDescription" = "دریافت بعضی از پرداختهای لایتنینگ خیلی بیشتر طول خواهد کشید.";
+"LightningNetworkSettings.turboChannels" = "توربو کانالها";
+"LightningNetworkSettings.learnMore" = "در مورد نقاط ضعف و قوت توربو کانالها بیشتر بدانید.";
+"LightningNetworkSettings.learnMoreUnderline" = "بیشتر بدانید";
+"LightningNetworkSettings.disable" = "غیرفعال کن";
+"LightningNetworkSettings.blogPost" = "https://blog.muun.com/turbo-channels/";
+/* OnchainSettings */
+"OnchainSettings.timeToActivation" = "ظرف ~%@ ساعت فعال می شود";
+"OnchainSettings.learnMore" = "تپروت یک نوع آدرس جدید است که پرداختهای شما را ارزانتر و کمتر قابل ردزنی می کند.
+
+بسیاری از سرویسها هنوز با تپروت سازگار نیستند و ممکن است آدرسهای شما را نامعتبر بدانند. اگر تپروت را به عنوان پیش فرض انتخاب می کنید، می بایست هنگامی که چنین اتفاقی رخ داد، نوع آدرس را به صورت دستی به سگویت یا آدرس های قدیمی تغییر دهید.";
+"OnchainSettings.defaultTaproot" = "استفاده از تپروت به عنوان پیش فرض";
+"OnchainSettings.title" = "شبکه بیتکوین";
+"OnchainSettings.confirmTitle" = "از تپروت به عنوان پیش فرض استفاده شود؟";
+"OnchainSettings.confirmDescription" = "بعضی سرویسها ممکن است آدرسهای شما را نامعتبر بدانند.";
+"OnchainSettings.confirm" = "تأیید";
+
+/* TaprootActivatedPopup */
+"TaprootActivatedPopup.title" = "تپروت راه افتاد!";
+"TaprootActivatedPopup.description" = "حالا می توانید با استفاده از آدرسهای تپروت پرداخت و دریافت کنید. پرداختهای شما ارزانتر و کمتر قابل ردزنی خواهند بود.";
+"TaprootActivatedPopup.ok" = "عالی";
+
+/* NotificationService */
+"NotificationService.unknown" = "شما یک اعلان جدید دارید";
+"NotificationService.fulfillIncomingSwapTitle" = "یک پرداخت لایتنینگ در وضعیت انتظار است!";
+"NotificationService.fulfillIncomingSwapBody" = "برای دریافت، برنامه را باز کنید";
+"NotificationService.taprootActivatedTitle" = "تپروت راه افتاد 🎉";
+"NotificationService.taprootActivatedBody" = "شبکه بیتکوین تپروت را فعال کرد. حالا می توانید از پرداختهای ارزانتر لذت ببرید.";
+"NotificationService.taprootPreactivationTitle" = "پرداختهایتان را ارتقا دهید";
+"NotificationService.taprootPreactivationBody" = "با فعال کردن تپروت، در هزینه های پرداختتان صرفه جویی کنید.";
+"NotificationService.opSentTitle" = "%@ فرستاده شد";
+"NotificationService.opReceivedTitle" = "%@ دریافت شد";
+"NotificationService.opFromContactTitle" = "%@ به شما %@ فرستاد";
